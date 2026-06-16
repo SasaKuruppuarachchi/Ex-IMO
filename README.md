@@ -1,7 +1,21 @@
 # Ex-IMO
 Extended Model Based Learned Inertial Odometry
 
-> **Code will be available soon.**
+[![Video Title](https://img.youtube.com/vi/IsjZ-TeqXPM/0.jpg)](https://www.youtube.com/watch?v=IsjZ-TeqXPM)
+
+## Status: Coming Soon
+The source code, pre-trained models, and instructions for reproducing our experimental results are currently being prepared for release. Please "Watch" this repository to receive updates on availability.
+
+## Citation
+If you find this work useful in your research, please consider citing our paper:
+
+```bibtex
+@article{your_paper_key,
+  author    = {Kuruppu Arachchige, Sasa and Joni Kämäräinen},
+  title     = {Extended Model Based Learned Inertial Odometry},
+  journal   = {ICUAS},
+  year      = {2026}
+}
 
 ## Abstract
 
