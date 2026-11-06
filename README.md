@@ -32,6 +32,15 @@ The results below are this repository's own evaluation on four public datasets, 
 
 ## Results in brief
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/figures/heldout_dark.png">
+  <img alt="Change in velocity RMSE and ATE of EX-IMO vs base IMO on eight held-out trajectory sets: velocity error is lower in all eight, by 6 to 72 percent; position error is lower in five, by 6 to 80 percent, and higher in three (TII ellipse +70 percent, NanoBench round +23 percent, TII race track +18 percent)." src="docs/figures/heldout_light.png">
+</picture>
+
+On trajectories never seen in training, EX-IMO with rotor-derived torque lowers velocity error in all 8 held-out sets
+(7 significant at p < 0.05) and position error in 5 of 8 (3 significant); TII-RATM's ellipse is the one significant
+loss. The tables below give the absolute numbers; `scripts/plots/heldout_plot.py` redraws the figure from them.
+
 All numbers come from the cleaned data this repo builds (`data_prep/`), so they aren't directly comparable with
 numbers published on the original files. Each figure is a mean over 3 seeds; the filter is tuned on validation for
 each dataset and variant; p comes from a paired t-test across seeds. Full tables: [results/ex_imo/](results/ex_imo/);
@@ -81,7 +90,7 @@ src/               IMO network and EKF, with the EX-IMO changes (frame, torque, 
   train_ex.py        training
   main_filter.py     EKF with network updates
   learning/data_management/prepare_datasets/public_uav_imo.py   converter to IMO's format + thrust/torque fits + folds
-scripts/           filter tuning and test (select_and_test.py), tables (compare_stage.py), job queue, diagnostics
+scripts/           filter tuning and test (select_and_test.py), tables (compare_stage.py), figures (plots/), job queue, diagnostics
 config/            fitted physics per dataset and fold, NeuroBEM gyro scale
 results/ex_imo/    result tables and the filter settings chosen on validation
 docs/              EX_IMO.md (method decisions, results, caveats), CLEANING.md (data cleaning rules)
