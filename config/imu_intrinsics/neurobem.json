@@ -1,0 +1,15 @@
+{
+ "dataset": "neurobem",
+ "fitted_on": "NeuroBEM training split (178 sequences)",
+ "method": "least squares of ground-truth heading change on per-axis gyro heading contributions, 10 s windows",
+ "gyro_scale": [
+  1.0249,
+  0.9934,
+  0.9983
+ ],
+ "heading_contribution_deg": [
+  41901,
+  30248,
+  6331
+ ]
+}

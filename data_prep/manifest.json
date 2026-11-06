@@ -1,0 +1,210 @@
+{
+ "generated_by": "scripts/build_manifest.py",
+ "datasets": {
+  "ai_io": {
+   "name": "AI-IO",
+   "paper": "arXiv:2603.00597 (ICRA 2026)",
+   "homepage": "https://github.com/SJTU-ViSYS-team/AI-IO",
+   "license": "MIT (repository LICENSE; no separate data license stated)",
+   "status": "complete: release v1.0 archive + repo",
+   "contents": {
+    "repo/": "git clone --depth 1",
+    "AI-IO_dataset/": "extracted AI-IO_dataset.tar.gz (archive deleted)"
+   },
+   "local_path": "data/raw/ai_io/",
+   "downloaded_utc": "2026-10-14T21:07:27+00:00",
+   "files_excluding_git": 173,
+   "bytes_on_disk_excluding_git": 1243666651,
+   "git_clones": [
+    {
+     "url": "https://github.com/SJTU-ViSYS-team/AI-IO.git",
+     "commit": "5866134d5e9e20c082a32f06a59e99abb9049a15",
+     "tracked_files": 37
+    }
+   ],
+   "downloads": [
+    {
+     "url": "https://github.com/SJTU-ViSYS-team/AI-IO/releases/download/v1.0/AI-IO_dataset.tar.gz",
+     "file": "AI-IO_dataset.tar.gz",
+     "bytes": 362936995,
+     "sha256": "499f7d6946914fd01a3f2da9f051d91a81c2f9655cea558a40cfb2dab169845d",
+     "archive_deleted_after_extract": true
+    }
+   ],
+   "extractions": [
+    {
+     "archive": "AI-IO_dataset.tar.gz",
+     "files": 136,
+     "verified": "gzip -t + tar listing count"
+    }
+   ]
+  },
+  "nanobench": {
+   "name": "NanoBench",
+   "paper": "arXiv:2603.09908",
+   "homepage": "https://github.com/syediu/nanobench (renamed from syediu/nanobench-iros2026)",
+   "license": "BSD-3-Clause",
+   "status": "partial upstream: 107 of 172 flights public (all public files downloaded)",
+   "contents": {
+    "repo/": "git clone --depth 1; data in repo/datasets/dataset/"
+   },
+   "local_path": "data/raw/nanobench/",
+   "downloaded_utc": "2026-10-14T21:07:26+00:00",
+   "files_excluding_git": 383,
+   "bytes_on_disk_excluding_git": 351212907,
+   "git_clones": [
+    {
+     "url": "https://github.com/syediu/nanobench.git",
+     "commit": "934a1ab92c458cad99c9278a5cb63bf68af6e56c",
+     "tracked_files": 384
+    }
+   ],
+   "downloads": [],
+   "extractions": []
+  },
+  "tii_ratm": {
+   "name": "Race Against the Machine (TII Racing)",
+   "paper": "IEEE RA-L 9(4) 2024, doi:10.1109/LRA.2024.3371288",
+   "homepage": "https://github.com/tii-racing/drone-racing-dataset",
+   "license": "data CC BY 4.0, code MIT",
+   "status": "subset by design: release v3.0.0 without camera/label image zips (approved)",
+   "contents": {
+    "repo/": "git clone --depth 1",
+    "v3.0.0/": "non-image zip members range-extracted from the release chunks, CRC32-verified"
+   },
+   "local_path": "data/raw/tii_ratm/",
+   "downloaded_utc": "2026-10-14T21:08:54+00:00",
+   "files_excluding_git": 539,
+   "bytes_on_disk_excluding_git": 5429439720,
+   "git_clones": [
+    {
+     "url": "https://github.com/tii-racing/drone-racing-dataset.git",
+     "commit": "df4a2e11c46980d48afdc9aa76ef4faa673f5928",
+     "tracked_files": 35
+    }
+   ],
+   "downloads": [],
+   "extractions": [],
+   "range_extractions": [
+    {
+     "part": "autonomous",
+     "member_index": "data/manifests/tii_ratm_v3.0.0_autonomous_members.json",
+     "source_urls": [
+      "https://github.com/tii-racing/drone-racing-dataset/releases/download/v3.0.0/autonomous_zipchunk01",
+      "https://github.com/tii-racing/drone-racing-dataset/releases/download/v3.0.0/autonomous_zipchunk02",
+      "https://github.com/tii-racing/drone-racing-dataset/releases/download/v3.0.0/autonomous_zipchunk03"
+     ],
+     "chunk_bytes": [
+      1992294400,
+      1992294400,
+      966098609
+     ],
+     "zip_bytes": 4950687409,
+     "zip_files": 306,
+     "extracted_files": 270,
+     "extracted_compressed_bytes": 512043635,
+     "extracted_bytes": 1822147868,
+     "excluded_files": 36,
+     "excluded_regex": "/(camera|label)_flight-[^/]+\\.zip$",
+     "excluded_compressed_bytes": 4438531566
+    },
+    {
+     "part": "piloted",
+     "member_index": "data/manifests/tii_ratm_v3.0.0_piloted_members.json",
+     "source_urls": [
+      "https://github.com/tii-racing/drone-racing-dataset/releases/download/v3.0.0/piloted_zipchunk01",
+      "https://github.com/tii-racing/drone-racing-dataset/releases/download/v3.0.0/piloted_zipchunk02",
+      "https://github.com/tii-racing/drone-racing-dataset/releases/download/v3.0.0/piloted_zipchunk03",
+      "https://github.com/tii-racing/drone-racing-dataset/releases/download/v3.0.0/piloted_zipchunk04",
+      "https://github.com/tii-racing/drone-racing-dataset/releases/download/v3.0.0/piloted_zipchunk05",
+      "https://github.com/tii-racing/drone-racing-dataset/releases/download/v3.0.0/piloted_zipchunk06",
+      "https://github.com/tii-racing/drone-racing-dataset/releases/download/v3.0.0/piloted_zipchunk07"
+     ],
+     "chunk_bytes": [
+      1992294400,
+      1992294400,
+      1992294400,
+      1992294400,
+      1992294400,
+      1992294400,
+      193406873
+     ],
+     "zip_bytes": 12147173273,
+     "zip_files": 270,
+     "extracted_files": 234,
+     "extracted_compressed_bytes": 1067606396,
+     "extracted_bytes": 3599867563,
+     "excluded_files": 36,
+     "excluded_regex": "/(camera|label)_flight-[^/]+\\.zip$",
+     "excluded_compressed_bytes": 11079466327
+    }
+   ]
+  },
+  "neurobem": {
+   "name": "NeuroBEM",
+   "paper": "RSS 2021 (Bauersfeld et al.)",
+   "homepage": "https://rpg.ifi.uzh.ch/NeuroBEM.html",
+   "license": "not stated by the authors; use confirmed by project owner 2026-10-15",
+   "status": "complete for processed_data + raw_data (predictions, pdf, code not downloaded)",
+   "contents": {
+    "processed_data/": "extracted processed_data.zip (archive deleted)",
+    "raw_data/": "extracted raw_data.zip (archive deleted)",
+    "Flights.txt, testset.txt, Readme.md": "downloaded as-is"
+   },
+   "local_path": "data/raw/neurobem/",
+   "downloaded_utc": "2026-10-14T21:07:52+00:00",
+   "files_excluding_git": 441,
+   "bytes_on_disk_excluding_git": 2968525245,
+   "git_clones": [],
+   "downloads": [
+    {
+     "url": "https://download.ifi.uzh.ch/rpg/NeuroBEM/Flights.txt",
+     "file": "Flights.txt",
+     "bytes": 7043,
+     "sha256": "62dbf4ecd520a12264593c837f0a60162ffa26e21e254e823c1b22a315823f1f",
+     "archive_deleted_after_extract": false
+    },
+    {
+     "url": "https://download.ifi.uzh.ch/rpg/NeuroBEM/testset.txt",
+     "file": "testset.txt",
+     "bytes": 338,
+     "sha256": "d59cd589105cf4cd3fcfe0a34a0b4824d6ae2560db13d34b9a7acd169deeb367",
+     "archive_deleted_after_extract": false
+    },
+    {
+     "url": "https://download.ifi.uzh.ch/rpg/NeuroBEM/Readme.md",
+     "file": "Readme.md",
+     "bytes": 6174,
+     "sha256": "69c0a051bac4189620790b302a19d158557c52d160271b633325bed532f6350e",
+     "archive_deleted_after_extract": false
+    },
+    {
+     "url": "https://download.ifi.uzh.ch/rpg/NeuroBEM/processed_data.zip",
+     "file": "processed_data.zip",
+     "bytes": 657316788,
+     "sha256": "a3e2e83d156b48a95c346c4fd9b3ded0b62781331dc613f1cb9ab285be2b36a8",
+     "archive_deleted_after_extract": true
+    },
+    {
+     "url": "https://download.ifi.uzh.ch/rpg/NeuroBEM/raw_data.zip",
+     "file": "raw_data.zip",
+     "bytes": 455214377,
+     "sha256": "c20d283eed80f5c968e7dc7b449cb785ffce2d5b3cc392cf1b9fadf31b29e907",
+     "archive_deleted_after_extract": true
+    }
+   ],
+   "extractions": [
+    {
+     "archive": "processed_data.zip",
+     "files": 248,
+     "verified": "zip CRC32 (testzip)"
+    },
+    {
+     "archive": "raw_data.zip",
+     "files": 190,
+     "verified": "zip CRC32 (testzip)"
+    }
+   ]
+  }
+ }
+}

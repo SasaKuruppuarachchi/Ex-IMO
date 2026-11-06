@@ -1,0 +1,2359 @@
+{
+ "source_urls": [
+  "https://github.com/tii-racing/drone-racing-dataset/releases/download/v3.0.0/autonomous_zipchunk01",
+  "https://github.com/tii-racing/drone-racing-dataset/releases/download/v3.0.0/autonomous_zipchunk02",
+  "https://github.com/tii-racing/drone-racing-dataset/releases/download/v3.0.0/autonomous_zipchunk03"
+ ],
+ "chunk_sizes": [
+  1992294400,
+  1992294400,
+  966098609
+ ],
+ "zip_total_bytes": 4950687409,
+ "exclude_regex": "/(camera|label)_flight-[^/]+\\.zip$",
+ "zip_file_count": 306,
+ "excluded": [
+  {
+   "name": "autonomous/flight-09a-lemniscate/label_flight-09a-lemniscate.zip",
+   "csize": 461850,
+   "usize": 1019813
+  },
+  {
+   "name": "autonomous/flight-09a-lemniscate/camera_flight-09a-lemniscate.zip",
+   "csize": 201776741,
+   "usize": 202003430
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/label_flight-10a-lemniscate.zip",
+   "csize": 507364,
+   "usize": 1126628
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/camera_flight-10a-lemniscate.zip",
+   "csize": 178900114,
+   "usize": 179164333
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/label_flight-17a-trackRATM.zip",
+   "csize": 1108560,
+   "usize": 2194797
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/camera_flight-17a-trackRATM.zip",
+   "csize": 282871856,
+   "usize": 283293965
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/camera_flight-04a-ellipse.zip",
+   "csize": 197107386,
+   "usize": 197373386
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/label_flight-04a-ellipse.zip",
+   "csize": 577240,
+   "usize": 1212765
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/camera_flight-05a-ellipse.zip",
+   "csize": 144851877,
+   "usize": 145067199
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/label_flight-05a-ellipse.zip",
+   "csize": 461377,
+   "usize": 953969
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/camera_flight-03a-ellipse.zip",
+   "csize": 197310445,
+   "usize": 197520557
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/label_flight-03a-ellipse.zip",
+   "csize": 483880,
+   "usize": 1006095
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/camera_flight-02a-ellipse.zip",
+   "csize": 204268486,
+   "usize": 204479865
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/label_flight-02a-ellipse.zip",
+   "csize": 490750,
+   "usize": 1020512
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/label_flight-18a-trackRATM.zip",
+   "csize": 1167869,
+   "usize": 2335051
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/camera_flight-18a-trackRATM.zip",
+   "csize": 328930396,
+   "usize": 329375751
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/label_flight-15a-trackRATM.zip",
+   "csize": 1088728,
+   "usize": 2160584
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/camera_flight-15a-trackRATM.zip",
+   "csize": 368928550,
+   "usize": 369318787
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/label_flight-06a-ellipse.zip",
+   "csize": 503471,
+   "usize": 1047389
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/camera_flight-06a-ellipse.zip",
+   "csize": 165260086,
+   "usize": 165493022
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/label_flight-16a-trackRATM.zip",
+   "csize": 1109554,
+   "usize": 2201896
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/camera_flight-16a-trackRATM.zip",
+   "csize": 304909825,
+   "usize": 305327306
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/camera_flight-11a-lemniscate.zip",
+   "csize": 134656879,
+   "usize": 134872574
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/label_flight-11a-lemniscate.zip",
+   "csize": 410739,
+   "usize": 900462
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/camera_flight-08a-lemniscate.zip",
+   "csize": 198199932,
+   "usize": 198435365
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/label_flight-08a-lemniscate.zip",
+   "csize": 475212,
+   "usize": 1049463
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/label_flight-13a-trackRATM.zip",
+   "csize": 1127574,
+   "usize": 2244077
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/camera_flight-13a-trackRATM.zip",
+   "csize": 456997837,
+   "usize": 457380534
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/label_flight-14a-trackRATM.zip",
+   "csize": 1177971,
+   "usize": 2336136
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/camera_flight-14a-trackRATM.zip",
+   "csize": 431471415,
+   "usize": 431877463
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/label_flight-12a-lemniscate.zip",
+   "csize": 430672,
+   "usize": 948141
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/camera_flight-12a-lemniscate.zip",
+   "csize": 158641481,
+   "usize": 158862693
+  },
+  {
+   "name": "autonomous/flight-01a-ellipse/label_flight-01a-ellipse.zip",
+   "csize": 451415,
+   "usize": 933471
+  },
+  {
+   "name": "autonomous/flight-01a-ellipse/camera_flight-01a-ellipse.zip",
+   "csize": 195457818,
+   "usize": 195649047
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/camera_flight-07a-lemniscate.zip",
+   "csize": 275390026,
+   "usize": 275659819
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/label_flight-07a-lemniscate.zip",
+   "csize": 566190,
+   "usize": 1261761
+  }
+ ],
+ "extracted": [
+  {
+   "name": "autonomous/flight-01a-ellipse/csv_raw/camera_flight-01a-ellipse.csv",
+   "method": 8,
+   "crc32": 691508736,
+   "csize": 24557,
+   "usize": 118775,
+   "sha256": "96e4ea9440817ea83dd9bd408c0bb5223d3bd9049d2d010c560d91ab19bca464"
+  },
+  {
+   "name": "autonomous/flight-01a-ellipse/csv_raw/gate_corners_flight-01a-ellipse.csv",
+   "method": 8,
+   "crc32": 1302054657,
+   "csize": 749970,
+   "usize": 2859486,
+   "sha256": "0e2c6a9f85fd01680907ab3c7f008a4bc18edded9212e9308b3fb022b2f14d2f"
+  },
+  {
+   "name": "autonomous/flight-01a-ellipse/csv_raw/mocap_flight-01a-ellipse.csv",
+   "method": 8,
+   "crc32": 865110077,
+   "csize": 844521,
+   "usize": 4667407,
+   "sha256": "503653520db2e849eff26706ad340922c20e1766ffa5807067c51abbbc98964c"
+  },
+  {
+   "name": "autonomous/flight-01a-ellipse/csv_raw/ros2bag_dump/battery_flight-01a-ellipse.csv",
+   "method": 8,
+   "crc32": 1906646001,
+   "csize": 5590,
+   "usize": 32669,
+   "sha256": "88cbff3f354640f884b4f6f62de3f46426166f213a5cac35dfbb9e9121ce3185"
+  },
+  {
+   "name": "autonomous/flight-01a-ellipse/csv_raw/ros2bag_dump/channels_flight-01a-ellipse.csv",
+   "method": 8,
+   "crc32": 2111064060,
+   "csize": 55528,
+   "usize": 298420,
+   "sha256": "15d060107c4861c9e990c598fa3def7028e63ddc791420d91cf8aea0443e3a94"
+  },
+  {
+   "name": "autonomous/flight-01a-ellipse/csv_raw/ros2bag_dump/ctbr_flight-01a-ellipse.csv",
+   "method": 8,
+   "crc32": 4241786507,
+   "csize": 150650,
+   "usize": 395157,
+   "sha256": "aad2ea6089007a779bf379f817e5e97f47d037f319ddec50751fcfaa6e883a10"
+  },
+  {
+   "name": "autonomous/flight-01a-ellipse/csv_raw/ros2bag_dump/drone_state_flight-01a-ellipse.csv",
+   "method": 8,
+   "crc32": 1182820427,
+   "csize": 387557,
+   "usize": 1024134,
+   "sha256": "a1059193c4129c3b0f06a1a9122090f841209a961717a5c40f6759f15891f3ac"
+  },
+  {
+   "name": "autonomous/flight-01a-ellipse/csv_raw/ros2bag_dump/imu_flight-01a-ellipse.csv",
+   "method": 8,
+   "crc32": 901173678,
+   "csize": 255195,
+   "usize": 966556,
+   "sha256": "f9f80b867447b47c86ca102c4a619695f8ebea94418c849b4c30a6cacc23f5ce"
+  },
+  {
+   "name": "autonomous/flight-01a-ellipse/csv_raw/ros2bag_dump/motors_thrust_flight-01a-ellipse.csv",
+   "method": 8,
+   "crc32": 1409735745,
+   "csize": 28490,
+   "usize": 137422,
+   "sha256": "691b55fc89eeb9f44e106cdde2d64ecf614f75d5a41f283587376a471593cb0c"
+  },
+  {
+   "name": "autonomous/flight-01a-ellipse/csv_raw/ros2bag_dump/reference_flight-01a-ellipse.csv",
+   "method": 8,
+   "crc32": 2156213070,
+   "csize": 79173,
+   "usize": 614960,
+   "sha256": "c3166160ed03316c1bba6082f7190d3c79cf2506d37af7bf2bf7d3a0aaad6bc1"
+  },
+  {
+   "name": "autonomous/flight-01a-ellipse/flight-01a-ellipse_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 298859612,
+   "csize": 8905283,
+   "usize": 32496890,
+   "sha256": "9dc90fbcdf3666fe89b39a3655a7de372f110d93ab96d29589f73602e28ed673"
+  },
+  {
+   "name": "autonomous/flight-01a-ellipse/flight-01a-ellipse_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 810145066,
+   "csize": 2240045,
+   "usize": 7787228,
+   "sha256": "48fbdeac9c76cab570d0573cdc24e3ea131cce6ed0af8f0ddf3e7aeb46ac0264"
+  },
+  {
+   "name": "autonomous/flight-01a-ellipse/metadata_flight-01a-ellipse.yaml",
+   "method": 8,
+   "crc32": 402471029,
+   "csize": 250,
+   "usize": 429,
+   "sha256": "b5973b6971e3249db04e54f9f72d17cf3b4ad523d7ce916ae09c06d94cd12384"
+  },
+  {
+   "name": "autonomous/flight-01a-ellipse/ros2bag_flight-01a-ellipse/metadata.yaml",
+   "method": 8,
+   "crc32": 747968428,
+   "csize": 621,
+   "usize": 4026,
+   "sha256": "c0982783b22b71572ea0f4fca951572981be152868cd137a7a55206e69cd5f23"
+  },
+  {
+   "name": "autonomous/flight-01a-ellipse/ros2bag_flight-01a-ellipse/ros2bag_flight-01a-ellipse.db3",
+   "method": 8,
+   "crc32": 2644240608,
+   "csize": 2310709,
+   "usize": 5189632,
+   "sha256": "42be8e0af9b406f4ed2341a0b40172f027c195aa4b9ccf735dd404da4e845734"
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/csv_raw/camera_flight-02a-ellipse.csv",
+   "method": 8,
+   "crc32": 1654779802,
+   "csize": 26735,
+   "usize": 129555,
+   "sha256": "10b30cebae40ff3a4056f08c54a3cc613d2f9a06cd0634be002a682578a654c2"
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/csv_raw/gate_corners_flight-02a-ellipse.csv",
+   "method": 8,
+   "crc32": 3007751287,
+   "csize": 811647,
+   "usize": 3119557,
+   "sha256": "d2e59a245cb4ebf55b97a5501b00fd7be3031a1884804558e37f55a705e844f7"
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/csv_raw/mocap_flight-02a-ellipse.csv",
+   "method": 8,
+   "crc32": 2612314077,
+   "csize": 903488,
+   "usize": 5071048,
+   "sha256": "2218f33c52a9f3546dfa1377e01dab2aaeaf81d8b873168a70637bc6c7021050"
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/csv_raw/ros2bag_dump/battery_flight-02a-ellipse.csv",
+   "method": 8,
+   "crc32": 3974484710,
+   "csize": 6047,
+   "usize": 35627,
+   "sha256": "a169d773fea0b38ff781cdf530e93a10ab96a0172e1fb51d96fa44c65e9f8ddb"
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/csv_raw/ros2bag_dump/channels_flight-02a-ellipse.csv",
+   "method": 8,
+   "crc32": 3040229764,
+   "csize": 59287,
+   "usize": 325828,
+   "sha256": "160ee0dc40b4a45766fc3064afa455cf427e48ea23babba036764c197a7a8c20"
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/csv_raw/ros2bag_dump/ctbr_flight-02a-ellipse.csv",
+   "method": 8,
+   "crc32": 3488712372,
+   "csize": 163631,
+   "usize": 432589,
+   "sha256": "ad732fd5f12ab17f1637485c360553cb236a712749054dd857a5a6319df39be5"
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/csv_raw/ros2bag_dump/drone_state_flight-02a-ellipse.csv",
+   "method": 8,
+   "crc32": 950682476,
+   "csize": 419802,
+   "usize": 1116723,
+   "sha256": "4839101d38ae79d11bec453578dfad06190555a6d6bfdccd82df51d29c3fdd87"
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/csv_raw/ros2bag_dump/imu_flight-02a-ellipse.csv",
+   "method": 8,
+   "crc32": 1957212400,
+   "csize": 274473,
+   "usize": 1052629,
+   "sha256": "269b4f1c9494fb469a301559b5f71750a665298af452ff6ce70fa2965e93d30b"
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/csv_raw/ros2bag_dump/motors_thrust_flight-02a-ellipse.csv",
+   "method": 8,
+   "crc32": 1200181072,
+   "csize": 30593,
+   "usize": 149866,
+   "sha256": "51ee5e8e920e69d2015d0d913a2172a90a706fa5fbce23d1b9270c03dbfcd066"
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/csv_raw/ros2bag_dump/reference_flight-02a-ellipse.csv",
+   "method": 8,
+   "crc32": 2022845572,
+   "csize": 80783,
+   "usize": 671951,
+   "sha256": "e788629e36978629589e326cd1faa4e3e60eb77e896b29f5e11d07a513c9678e"
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/flight-02a-ellipse_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 1201388135,
+   "csize": 9561556,
+   "usize": 35332621,
+   "sha256": "94c1f5b27c9ba8db7593658cf1a32be2addcf2a3477e492f7e4dddbc723c1d54"
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/flight-02a-ellipse_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 3731196607,
+   "csize": 2406565,
+   "usize": 8481741,
+   "sha256": "242685fcea39154c8067a71c718f2a1b56dcaa1e58320392bffb7b62a8eccce4"
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/metadata_flight-02a-ellipse.yaml",
+   "method": 8,
+   "crc32": 2821178676,
+   "csize": 252,
+   "usize": 432,
+   "sha256": "d2291c0b21a68a1ff1d1fa0bdf0e59aaf6a44864d6e9a89b14122901261e91df"
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/ros2bag_flight-02a-ellipse/metadata.yaml",
+   "method": 8,
+   "crc32": 149467188,
+   "csize": 634,
+   "usize": 4327,
+   "sha256": "ea11327cc9e325459e2fee5ab0c3403901f5d5a6735d6041c29c4bcc19bec7ce"
+  },
+  {
+   "name": "autonomous/flight-02a-ellipse/ros2bag_flight-02a-ellipse/ros2bag_flight-02a-ellipse.db3",
+   "method": 8,
+   "crc32": 3115839512,
+   "csize": 2321374,
+   "usize": 5206016,
+   "sha256": "eedd770c67655c625e9b8361283c245139644c966857b7dc39ee3ef60cc19d57"
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/csv_raw/camera_flight-03a-ellipse.csv",
+   "method": 8,
+   "crc32": 3764865941,
+   "csize": 26333,
+   "usize": 127751,
+   "sha256": "b6c094050d632b11d23ff5cf43f7821f6a1bc4ca655a593b26272b7700239b20"
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/csv_raw/gate_corners_flight-03a-ellipse.csv",
+   "method": 8,
+   "crc32": 1661972367,
+   "csize": 804306,
+   "usize": 3104577,
+   "sha256": "1275cce7888dabdf35cd29660007e7cff15e9a0507e88214b141c583c56e8148"
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/csv_raw/mocap_flight-03a-ellipse.csv",
+   "method": 8,
+   "crc32": 1104451811,
+   "csize": 894851,
+   "usize": 4988847,
+   "sha256": "1403d5ca82e882a4730b9b6357ad0d08d14ed5cc5cdc87ad3110a036c417eba8"
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/csv_raw/ros2bag_dump/battery_flight-03a-ellipse.csv",
+   "method": 8,
+   "crc32": 2863927518,
+   "csize": 6118,
+   "usize": 35453,
+   "sha256": "a9483883a6abb120b54c4269b162f7b96c32fe2c35faa3cc2c12bcbfea3d41e9"
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/csv_raw/ros2bag_dump/channels_flight-03a-ellipse.csv",
+   "method": 8,
+   "crc32": 475794236,
+   "csize": 59150,
+   "usize": 323380,
+   "sha256": "dfc3624a367343c283e6c50cba8ad0b275c89cf47ba6bb43a9a428cc223926f5"
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/csv_raw/ros2bag_dump/ctbr_flight-03a-ellipse.csv",
+   "method": 8,
+   "crc32": 3182782757,
+   "csize": 162688,
+   "usize": 427567,
+   "sha256": "e551736f021094574b8a9046cd9c71bb7cb36bde06b13d748422520487d50d4d"
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/csv_raw/ros2bag_dump/drone_state_flight-03a-ellipse.csv",
+   "method": 8,
+   "crc32": 1295605513,
+   "csize": 418974,
+   "usize": 1112450,
+   "sha256": "4b99acd6224bde8a29297c36d643c2c7c2cab0424a651b0038a74a3acadd4797"
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/csv_raw/ros2bag_dump/imu_flight-03a-ellipse.csv",
+   "method": 8,
+   "crc32": 2818830469,
+   "csize": 274670,
+   "usize": 1047355,
+   "sha256": "7c5f08b68ff2270f876f50f3b9799a46e26db89cf4f13bf5dd172b896da3c2fc"
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/csv_raw/ros2bag_dump/motors_thrust_flight-03a-ellipse.csv",
+   "method": 8,
+   "crc32": 510280948,
+   "csize": 30858,
+   "usize": 149195,
+   "sha256": "35eaaddbf3d17d9af1c6205b1a2d8a26edc16805292f6ea7da72b28e924f9aff"
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/csv_raw/ros2bag_dump/reference_flight-03a-ellipse.csv",
+   "method": 8,
+   "crc32": 876786661,
+   "csize": 80807,
+   "usize": 682830,
+   "sha256": "19cdc53264be3669ec40af931a3e8edab2e32baf089d0c01a14af4b6d6fe187d"
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/flight-03a-ellipse_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 2985725931,
+   "csize": 9441525,
+   "usize": 34749112,
+   "sha256": "f5e726ce294be32960e23b8e1ff40f5c09bf2887cfcde2882ed846858b8f64ae"
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/flight-03a-ellipse_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 3279429923,
+   "csize": 2379538,
+   "usize": 8381811,
+   "sha256": "cf0c5841c195b60d920be2f9bf504da71080b8c170fcc6c824221bbf6aa0aa02"
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/metadata_flight-03a-ellipse.yaml",
+   "method": 8,
+   "crc32": 2505675470,
+   "csize": 255,
+   "usize": 434,
+   "sha256": "71ac9f7bcecb5d162e52435a81780425609643d7562d8a396282bc2697b5c22f"
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/ros2bag_flight-03a-ellipse/metadata.yaml",
+   "method": 8,
+   "crc32": 3801076209,
+   "csize": 631,
+   "usize": 4327,
+   "sha256": "ae83b0d73d3b1fe2117f3104479c8caf0d55cb3d8ea766b8a2ebf94a5fc7677a"
+  },
+  {
+   "name": "autonomous/flight-03a-ellipse/ros2bag_flight-03a-ellipse/ros2bag_flight-03a-ellipse.db3",
+   "method": 8,
+   "crc32": 3761567539,
+   "csize": 2392481,
+   "usize": 5369856,
+   "sha256": "1ca5948165c39bfadbe6339cba6b4f27c3b92973359b7f853694813c1b97f0a3"
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/csv_raw/camera_flight-04a-ellipse.csv",
+   "method": 8,
+   "crc32": 2769170723,
+   "csize": 31811,
+   "usize": 153755,
+   "sha256": "f7c6a6e3957eb917dcee6ba4e4c92f27a1e0cc3010a71203871cd0cefead07db"
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/csv_raw/gate_corners_flight-04a-ellipse.csv",
+   "method": 8,
+   "crc32": 503833907,
+   "csize": 954125,
+   "usize": 3701988,
+   "sha256": "3da36a199e2e90b6dcc3055fefc6fc25519238c3ba4eda247ca8d4b89f487197"
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/csv_raw/mocap_flight-04a-ellipse.csv",
+   "method": 8,
+   "crc32": 486049211,
+   "csize": 1028097,
+   "usize": 5970614,
+   "sha256": "31db358ecb51bffc171cc0d8668111f365dd1b2022f7d73b07f313bafdaa360e"
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/csv_raw/ros2bag_dump/battery_flight-04a-ellipse.csv",
+   "method": 8,
+   "crc32": 139304725,
+   "csize": 7208,
+   "usize": 42297,
+   "sha256": "f91fffbf1b8f39acec180c51bac8c5cd63592362f2bdd0526a4de74ecb64e3f3"
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/csv_raw/ros2bag_dump/channels_flight-04a-ellipse.csv",
+   "method": 8,
+   "crc32": 1053775851,
+   "csize": 67795,
+   "usize": 400612,
+   "sha256": "149eae969b8ad401b94f527a2eb6af5dbb266f4f0603bce36f8d4b7fcf1485a2"
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/csv_raw/ros2bag_dump/ctbr_flight-04a-ellipse.csv",
+   "method": 8,
+   "crc32": 2476841936,
+   "csize": 190235,
+   "usize": 527755,
+   "sha256": "96c6354bf584015037465a90118a793303bbdecd6e857295435cf32f68d1f1e8"
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/csv_raw/ros2bag_dump/drone_state_flight-04a-ellipse.csv",
+   "method": 8,
+   "crc32": 4293072438,
+   "csize": 474515,
+   "usize": 1325949,
+   "sha256": "d8e9acb566c096920e6065df4ba67d444bc45bb53508875a839fc1bd127934dc"
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/csv_raw/ros2bag_dump/imu_flight-04a-ellipse.csv",
+   "method": 8,
+   "crc32": 4074948590,
+   "csize": 301840,
+   "usize": 1252241,
+   "sha256": "075f83d618c9ffe1c8df2e333277107520aa4efc05f524cd0660bd5876fc2ef6"
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/csv_raw/ros2bag_dump/motors_thrust_flight-04a-ellipse.csv",
+   "method": 8,
+   "crc32": 1700952689,
+   "csize": 33888,
+   "usize": 177865,
+   "sha256": "74d13642a025fa3b58ebef1919b861de7878cf063727b9bf16cded7088af7625"
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/csv_raw/ros2bag_dump/reference_flight-04a-ellipse.csv",
+   "method": 8,
+   "crc32": 3152975765,
+   "csize": 81646,
+   "usize": 726435,
+   "sha256": "6c35be2ee99c859851e386466b43b449a104d8d98e9cba9856c09fc6c0974277"
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/flight-04a-ellipse_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 394579676,
+   "csize": 11159092,
+   "usize": 41776502,
+   "sha256": "7ba28387a6d4c92053b2d8646b4020420655404b1a20fa8a7d62b0ea5008095e"
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/flight-04a-ellipse_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 1742007817,
+   "csize": 2802592,
+   "usize": 10032258,
+   "sha256": "65677d2e96572be3cb90f5b3eafa399f013b7570d3b03158fc7a19e4222441c0"
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/metadata_flight-04a-ellipse.yaml",
+   "method": 8,
+   "crc32": 2241231922,
+   "csize": 258,
+   "usize": 437,
+   "sha256": "3dc909c98d335a6218820f875efbbaed89fc39f6b5686ae91cbf94d8a095439f"
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/ros2bag_flight-04a-ellipse/metadata.yaml",
+   "method": 8,
+   "crc32": 338785015,
+   "csize": 634,
+   "usize": 4329,
+   "sha256": "3edc0a6d35368f0d5f8b71b9af89a82c96e8446c597a7ce5e136669903bbafd1"
+  },
+  {
+   "name": "autonomous/flight-04a-ellipse/ros2bag_flight-04a-ellipse/ros2bag_flight-04a-ellipse.db3",
+   "method": 8,
+   "crc32": 295314225,
+   "csize": 2595240,
+   "usize": 5890048,
+   "sha256": "4c70972b009eacce8a3c5ed236da9fe46e97bd6eada67e5c9ada085284655c32"
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/csv_raw/camera_flight-05a-ellipse.csv",
+   "method": 8,
+   "crc32": 3423449380,
+   "csize": 25159,
+   "usize": 122031,
+   "sha256": "afe4f05a2adcdc8cc249fecc459fbd7effe1365557e6770ca1f25a5df05b617e"
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/csv_raw/gate_corners_flight-05a-ellipse.csv",
+   "method": 8,
+   "crc32": 2382594504,
+   "csize": 768051,
+   "usize": 2960899,
+   "sha256": "1c4612038c9057fb12b8f06e886c0f87ee4b853a2e3ab7219b00874e6dae0142"
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/csv_raw/mocap_flight-05a-ellipse.csv",
+   "method": 8,
+   "crc32": 3937917735,
+   "csize": 852955,
+   "usize": 4798231,
+   "sha256": "418bfcf029f5637b4488f95eadebaec026d3c2528d15045f88ff29800cc501e4"
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/csv_raw/ros2bag_dump/battery_flight-05a-ellipse.csv",
+   "method": 8,
+   "crc32": 1401647872,
+   "csize": 5775,
+   "usize": 33829,
+   "sha256": "f5de4ca0969bc7ecd7e9699cc20e904b4cc893366294c481ac2775e84b47acad"
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/csv_raw/ros2bag_dump/channels_flight-05a-ellipse.csv",
+   "method": 8,
+   "crc32": 2578387581,
+   "csize": 56873,
+   "usize": 309508,
+   "sha256": "c0b311b1f904156ca99c3a9177b7c37b891b9127cefd949066d57e9a46f8323f"
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/csv_raw/ros2bag_dump/ctbr_flight-05a-ellipse.csv",
+   "method": 8,
+   "crc32": 390683770,
+   "csize": 155793,
+   "usize": 408340,
+   "sha256": "b4c5ef929b18ba786470311d7702730adde3d87b81f8631e849c6db3f32970e5"
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/csv_raw/ros2bag_dump/drone_state_flight-05a-ellipse.csv",
+   "method": 8,
+   "crc32": 2344136291,
+   "csize": 400129,
+   "usize": 1061100,
+   "sha256": "e9246e00f436293acea3655450d5c4ade89008570b5d36fe918895f44d526d35"
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/csv_raw/ros2bag_dump/imu_flight-05a-ellipse.csv",
+   "method": 8,
+   "crc32": 4109990839,
+   "csize": 259066,
+   "usize": 996223,
+   "sha256": "4870bbc9770b1e0963f9adce4abe0c61b21aa2cea9078b41e1c4fe27a0be2872"
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/csv_raw/ros2bag_dump/motors_thrust_flight-05a-ellipse.csv",
+   "method": 8,
+   "crc32": 3953379065,
+   "csize": 29409,
+   "usize": 142302,
+   "sha256": "2e6da077890759083aa9fb2ef2284b36cd2437c5dd1dd5680c16d9a9c5562b08"
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/csv_raw/ros2bag_dump/reference_flight-05a-ellipse.csv",
+   "method": 8,
+   "crc32": 2025055725,
+   "csize": 79555,
+   "usize": 648573,
+   "sha256": "38f6b180d813cf59aae6eed23793925b570e050fe43e37a3f25ceccd448126c7"
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/flight-05a-ellipse_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 3671057209,
+   "csize": 9040416,
+   "usize": 33390424,
+   "sha256": "a5478b0f29119a3f9bf25114129dedd0f93225e8bb23adb9d9998ef7f01ddaa3"
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/flight-05a-ellipse_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 278437149,
+   "csize": 2265838,
+   "usize": 7977694,
+   "sha256": "82371a2e477802831da1c65d305165e842815bbdfb3798638f094be4df542884"
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/metadata_flight-05a-ellipse.yaml",
+   "method": 8,
+   "crc32": 1911123442,
+   "csize": 251,
+   "usize": 429,
+   "sha256": "7c406a8fc82736880ff31d159c01ea62070cbc7b1b53396ec3a2706d1e5db9a6"
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/ros2bag_flight-05a-ellipse/metadata.yaml",
+   "method": 8,
+   "crc32": 1057079787,
+   "csize": 634,
+   "usize": 4327,
+   "sha256": "4b46d9602f97d978f4fd106ea50ededbcf11306916448c783714a8c797afbdeb"
+  },
+  {
+   "name": "autonomous/flight-05a-ellipse/ros2bag_flight-05a-ellipse/ros2bag_flight-05a-ellipse.db3",
+   "method": 8,
+   "crc32": 2063971286,
+   "csize": 2362244,
+   "usize": 5365760,
+   "sha256": "05b21b71d18c6e0f24de5e9f19250f4b161795572e9e86d65a10c67e264d69cc"
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/csv_raw/camera_flight-06a-ellipse.csv",
+   "method": 8,
+   "crc32": 2418526395,
+   "csize": 27498,
+   "usize": 133779,
+   "sha256": "948699000137c17a8b830e793b177ee9251ca34bec5b63541f7f3b0ca4b6ec65"
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/csv_raw/gate_corners_flight-06a-ellipse.csv",
+   "method": 8,
+   "crc32": 1172037021,
+   "csize": 834079,
+   "usize": 3221552,
+   "sha256": "b910be491dd678e8901b5f18b61c999d6966b0be602eb5674e0ab81911eba715"
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/csv_raw/mocap_flight-06a-ellipse.csv",
+   "method": 8,
+   "crc32": 2780374792,
+   "csize": 906271,
+   "usize": 5213422,
+   "sha256": "9d7b59cb46dd71802a7e1adc76f0f2a46a3df1c3a4ff73f4bd20d9e3fb89c7c4"
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/csv_raw/ros2bag_dump/battery_flight-06a-ellipse.csv",
+   "method": 8,
+   "crc32": 725566068,
+   "csize": 6349,
+   "usize": 36787,
+   "sha256": "c30a12ba65d5c90ec1ec47ee476bb2383ceedb392f2bb9714653942328e763da"
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/csv_raw/ros2bag_dump/channels_flight-06a-ellipse.csv",
+   "method": 8,
+   "crc32": 89508602,
+   "csize": 61210,
+   "usize": 338596,
+   "sha256": "5e1ea19b6dd0583263715c7b7130b7033ecfc66672418676b46f7129788d6d6e"
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/csv_raw/ros2bag_dump/ctbr_flight-06a-ellipse.csv",
+   "method": 8,
+   "crc32": 3047710697,
+   "csize": 168285,
+   "usize": 446280,
+   "sha256": "15cd8ff127f7b3803e2671abf0243560efb81d6f16b55034c802918c425dfba7"
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/csv_raw/ros2bag_dump/drone_state_flight-06a-ellipse.csv",
+   "method": 8,
+   "crc32": 1514470923,
+   "csize": 431567,
+   "usize": 1152742,
+   "sha256": "f195f4294d906ec489fe8161b3986b303f4afad8ee12868ae1938cf7bd7ee500"
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/csv_raw/ros2bag_dump/imu_flight-06a-ellipse.csv",
+   "method": 8,
+   "crc32": 1013530560,
+   "csize": 279150,
+   "usize": 1087174,
+   "sha256": "de5e519f53c51c2fb2f07b176596087414841747580a37360dd25b0faa825a17"
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/csv_raw/ros2bag_dump/motors_thrust_flight-06a-ellipse.csv",
+   "method": 8,
+   "crc32": 3090674462,
+   "csize": 31408,
+   "usize": 154746,
+   "sha256": "3c21c4adcfc3c10aeb60abea00fbf86958a65e05ae0870f862a7f5b483137a9f"
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/csv_raw/ros2bag_dump/reference_flight-06a-ellipse.csv",
+   "method": 8,
+   "crc32": 2962718951,
+   "csize": 80746,
+   "usize": 688305,
+   "sha256": "90ef18fd047157a40a5b5bc0861d3185d896e9e3d9a2799a5fdb5c473bcc2446"
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/flight-06a-ellipse_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 943205782,
+   "csize": 9728036,
+   "usize": 36311921,
+   "sha256": "c4d542e07c821c8fd86623aacec0e9fb770a6f9e54d4a83f78271a9a6edd2f7e"
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/flight-06a-ellipse_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 1552151960,
+   "csize": 2455287,
+   "usize": 8736442,
+   "sha256": "9bc187a296bee72cbd91bcb48c6334b1f40485f872fb0c9f6b075f5e21c7147f"
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/metadata_flight-06a-ellipse.yaml",
+   "method": 8,
+   "crc32": 3520928493,
+   "csize": 256,
+   "usize": 433,
+   "sha256": "cd2c106e739ff45c42c3a1b59352bad18244129a9a6b2305bec127f52fe29b6d"
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/ros2bag_flight-06a-ellipse/metadata.yaml",
+   "method": 8,
+   "crc32": 3537372180,
+   "csize": 618,
+   "usize": 4025,
+   "sha256": "1eae01c967dc086c0d8c00e2e03ab9042d137bf105a2d26555605e116f9b9879"
+  },
+  {
+   "name": "autonomous/flight-06a-ellipse/ros2bag_flight-06a-ellipse/ros2bag_flight-06a-ellipse.db3",
+   "method": 8,
+   "crc32": 1204726087,
+   "csize": 2403873,
+   "usize": 5402624,
+   "sha256": "5227a548c3ce90174d09bdcca8d1bf7030034742970ac06be505057600456d96"
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/csv_raw/camera_flight-07a-lemniscate.csv",
+   "method": 8,
+   "crc32": 1025691658,
+   "csize": 33463,
+   "usize": 162467,
+   "sha256": "7ee148cf03c300abd3cf38ed9207df801c2b0bbad5c3adbd6079285617251690"
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/csv_raw/gate_corners_flight-07a-lemniscate.csv",
+   "method": 8,
+   "crc32": 477624077,
+   "csize": 1051419,
+   "usize": 3926993,
+   "sha256": "125fd335e8e10a6511e1b5c536d8ac0bcfebbcd81d6f021381950bc07b326029"
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/csv_raw/mocap_flight-07a-lemniscate.csv",
+   "method": 8,
+   "crc32": 719867768,
+   "csize": 1253771,
+   "usize": 6410807,
+   "sha256": "3fd2f2d3e970cbde101ebafa043c6b812f95465fa80d8a82ae7c48cde694c6b8"
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/csv_raw/ros2bag_dump/battery_flight-07a-lemniscate.csv",
+   "method": 8,
+   "crc32": 2947568277,
+   "csize": 7677,
+   "usize": 44849,
+   "sha256": "5bc0537260fb8e1d30333533ab33b5202c2e3d4410e6ed08368007e473796a21"
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/csv_raw/ros2bag_dump/channels_flight-07a-lemniscate.csv",
+   "method": 8,
+   "crc32": 551617262,
+   "csize": 72464,
+   "usize": 399556,
+   "sha256": "52fa05dca9421ba3eb951691ec83068e5624f305cd796d4bf9e68faa3bf5baf9"
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/csv_raw/ros2bag_dump/ctbr_flight-07a-lemniscate.csv",
+   "method": 8,
+   "crc32": 2048599192,
+   "csize": 203749,
+   "usize": 537883,
+   "sha256": "de5f7cae0abebabb557bd22bc96e6a87227d0d9a29d538ce1477cd3f482553f9"
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/csv_raw/ros2bag_dump/drone_state_flight-07a-lemniscate.csv",
+   "method": 8,
+   "crc32": 1266493173,
+   "csize": 533816,
+   "usize": 1394749,
+   "sha256": "0e9f4ab56163a824dcb60c9f389780ea0271c68fb38635663bff194f3e29435c"
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/csv_raw/ros2bag_dump/imu_flight-07a-lemniscate.csv",
+   "method": 8,
+   "crc32": 628370043,
+   "csize": 339005,
+   "usize": 1323082,
+   "sha256": "078991c652a3db0779f83d275a02cae760d32e9ed3ff21a893843fa21e488c23"
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/csv_raw/ros2bag_dump/motors_thrust_flight-07a-lemniscate.csv",
+   "method": 8,
+   "crc32": 2714948050,
+   "csize": 37973,
+   "usize": 188662,
+   "sha256": "5dc7c960e6c3714fb974845b3cf603079c04fc37502fddce21cc5ee874706df6"
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/csv_raw/ros2bag_dump/reference_flight-07a-lemniscate.csv",
+   "method": 8,
+   "crc32": 1110386380,
+   "csize": 104318,
+   "usize": 869615,
+   "sha256": "4c434d2a7fb9d33070966c33e38237119ea5182eff37bd4fe5bc7599c740a1db"
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/flight-07a-lemniscate_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 3597252462,
+   "csize": 12775299,
+   "usize": 44728405,
+   "sha256": "f8249a32e4e5dc6acc69449ca7e358632bbf0fba28f6032baacb9972d6cbc2b4"
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/flight-07a-lemniscate_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 2932913392,
+   "csize": 3232065,
+   "usize": 10688736,
+   "sha256": "1be08606462de1dc1c975a82e4e530331cd070cce2cf0135be4d82f5daa14cb6"
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/metadata_flight-07a-lemniscate.yaml",
+   "method": 8,
+   "crc32": 4118802809,
+   "csize": 251,
+   "usize": 435,
+   "sha256": "1d22b5d77ab629bc4f18c1b4413b0ef6b41e40c03d525e4ac4366655f880d8e9"
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/ros2bag_flight-07a-lemniscate/metadata.yaml",
+   "method": 8,
+   "crc32": 2347113842,
+   "csize": 624,
+   "usize": 4033,
+   "sha256": "59330c99309141ed17a90ed87e2de9edb4b9199d86854609b0c5c69952b151cc"
+  },
+  {
+   "name": "autonomous/flight-07a-lemniscate/ros2bag_flight-07a-lemniscate/ros2bag_flight-07a-lemniscate.db3",
+   "method": 8,
+   "crc32": 4046106824,
+   "csize": 3309372,
+   "usize": 7467008,
+   "sha256": "ba28e16cf884019f959a2dad8f5d92a3b986ac03ae721f6546d1ca8fdc9a1264"
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/csv_raw/camera_flight-08a-lemniscate.csv",
+   "method": 8,
+   "crc32": 1189657642,
+   "csize": 28015,
+   "usize": 135583,
+   "sha256": "3e03be4dfb7aa6e64ecfd3fcaf3ac04d35e212d76054871178513dc44c82ad0e"
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/csv_raw/gate_corners_flight-08a-lemniscate.csv",
+   "method": 8,
+   "crc32": 2511217070,
+   "csize": 874033,
+   "usize": 3264108,
+   "sha256": "005e3560e5460705e1559948b0d977acc52b9055ae98b21fd708ffaf9f376ee8"
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/csv_raw/mocap_flight-08a-lemniscate.csv",
+   "method": 8,
+   "crc32": 595344246,
+   "csize": 1073268,
+   "usize": 5360449,
+   "sha256": "3d4f93d038d81a25bbc058c543a2b0ab312e74dc291b8af5f841bc101757f754"
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/csv_raw/ros2bag_dump/battery_flight-08a-lemniscate.csv",
+   "method": 8,
+   "crc32": 2067176511,
+   "csize": 6261,
+   "usize": 37280,
+   "sha256": "3bbda7c36e7f5d1acb3bf7b80a1f74420ec366b748ae48242c324d3ca23c42fd"
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/csv_raw/ros2bag_dump/channels_flight-08a-lemniscate.csv",
+   "method": 8,
+   "crc32": 3810991615,
+   "csize": 64765,
+   "usize": 339220,
+   "sha256": "1ed7f82261bfc6c230f23aef1fb7fbf297d43a8add236c6fc47f5c8aa6ceebf2"
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/csv_raw/ros2bag_dump/ctbr_flight-08a-lemniscate.csv",
+   "method": 8,
+   "crc32": 2012174109,
+   "csize": 172006,
+   "usize": 448237,
+   "sha256": "b42a3ec99b11e41121b09c4a13f157c7dc78a3e0c9bcced0e3a206676c4f909a"
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/csv_raw/ros2bag_dump/drone_state_flight-08a-lemniscate.csv",
+   "method": 8,
+   "crc32": 3657336985,
+   "csize": 451922,
+   "usize": 1159818,
+   "sha256": "c4e44fa28bcbc8f03924bf1bdb393cd33042d8a429524ea25e926a459f26fb09"
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/csv_raw/ros2bag_dump/imu_flight-08a-lemniscate.csv",
+   "method": 8,
+   "crc32": 2138554131,
+   "csize": 294056,
+   "usize": 1104347,
+   "sha256": "8561fbbd5ae486ef9180472860572ea79bceea1cfbc8c0754dcb5803c1030ee0"
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/csv_raw/ros2bag_dump/motors_thrust_flight-08a-lemniscate.csv",
+   "method": 8,
+   "crc32": 1137151553,
+   "csize": 32177,
+   "usize": 156881,
+   "sha256": "f5801ab79bc84072eea53fe1ce4d1895c80654fd1f01940fd9a58222e91ec7d7"
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/csv_raw/ros2bag_dump/reference_flight-08a-lemniscate.csv",
+   "method": 8,
+   "crc32": 1844193566,
+   "csize": 100282,
+   "usize": 701163,
+   "sha256": "57caec50ed2bfa2e6cfbc63144399d2be5d9a179881f9c115586cedb3e419e74"
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/flight-08a-lemniscate_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 758853877,
+   "csize": 10505327,
+   "usize": 37087059,
+   "sha256": "f2744c0649b4c6848ae23d338df74d5ea3bdce764698a01d18f357beb0e27d62"
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/flight-08a-lemniscate_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 2602132725,
+   "csize": 2735315,
+   "usize": 8932215,
+   "sha256": "4370cf68b3ccc49d1bff1753c2921b2ebf527a047e78acee705d3860bf74d1a1"
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/metadata_flight-08a-lemniscate.yaml",
+   "method": 8,
+   "crc32": 101732061,
+   "csize": 253,
+   "usize": 438,
+   "sha256": "921ded8737cb605b47e78d1829ea9127610bbd3acc7f611980f2cd9d3425975e"
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/ros2bag_flight-08a-lemniscate/metadata.yaml",
+   "method": 8,
+   "crc32": 2776117211,
+   "csize": 636,
+   "usize": 4335,
+   "sha256": "5c50130cc709a02ff42bd6c3c536b4398a667efe89a9b00880413d831700e675"
+  },
+  {
+   "name": "autonomous/flight-08a-lemniscate/ros2bag_flight-08a-lemniscate/ros2bag_flight-08a-lemniscate.db3",
+   "method": 8,
+   "crc32": 3883190489,
+   "csize": 3288070,
+   "usize": 7483392,
+   "sha256": "f38eba845faa720a64de3a5c09d95b7d1f570bc84fdffcb525e4692ae03b2367"
+  },
+  {
+   "name": "autonomous/flight-09a-lemniscate/csv_raw/camera_flight-09a-lemniscate.csv",
+   "method": 8,
+   "crc32": 504353530,
+   "csize": 27200,
+   "usize": 132063,
+   "sha256": "bc3dd1d6db814c36e9de3c20cfdf84860bf9fa23a383e11dcda5b8524a5110ab"
+  },
+  {
+   "name": "autonomous/flight-09a-lemniscate/csv_raw/gate_corners_flight-09a-lemniscate.csv",
+   "method": 8,
+   "crc32": 3070401903,
+   "csize": 846629,
+   "usize": 3203802,
+   "sha256": "614326846f38e117b95cb2912eb1472bd7bfcd6ae86e6e3964392faa892a33e7"
+  },
+  {
+   "name": "autonomous/flight-09a-lemniscate/csv_raw/mocap_flight-09a-lemniscate.csv",
+   "method": 8,
+   "crc32": 1591325574,
+   "csize": 1003746,
+   "usize": 5295182,
+   "sha256": "821a08f74c88a237f6d70be9b2d3db09946e952db188b707bf68c697a46cfed7"
+  },
+  {
+   "name": "autonomous/flight-09a-lemniscate/csv_raw/ros2bag_dump/battery_flight-09a-lemniscate.csv",
+   "method": 8,
+   "crc32": 3114230084,
+   "csize": 6238,
+   "usize": 36584,
+   "sha256": "c5e11165b61bc07d310f9241574d1771068fcd81aab432fd2501742692a160e3"
+  },
+  {
+   "name": "autonomous/flight-09a-lemniscate/csv_raw/ros2bag_dump/channels_flight-09a-lemniscate.csv",
+   "method": 8,
+   "crc32": 3680160900,
+   "csize": 64799,
+   "usize": 331780,
+   "sha256": "bd1e17c514627509cb292167ee544d732c0cd2465ec97a0fae80250f31173d1c"
+  },
+  {
+   "name": "autonomous/flight-09a-lemniscate/csv_raw/ros2bag_dump/ctbr_flight-09a-lemniscate.csv",
+   "method": 8,
+   "crc32": 1931417941,
+   "csize": 168928,
+   "usize": 437990,
+   "sha256": "721b5d1ae277abf67188d51056cbb732bee385d9ebbe36d1301826bb16b6722b"
+  },
+  {
+   "name": "autonomous/flight-09a-lemniscate/csv_raw/ros2bag_dump/drone_state_flight-09a-lemniscate.csv",
+   "method": 8,
+   "crc32": 3905973934,
+   "csize": 444656,
+   "usize": 1139246,
+   "sha256": "21c4764a1e3b35ef61ab6afc1a5476dd93527fb6d464a8da440aa18df5ee074f"
+  },
+  {
+   "name": "autonomous/flight-09a-lemniscate/csv_raw/ros2bag_dump/imu_flight-09a-lemniscate.csv",
+   "method": 8,
+   "crc32": 4147364303,
+   "csize": 289688,
+   "usize": 1081803,
+   "sha256": "2038c280c41bccb0b6032a3a7160f76386272a5b470970de437ad624d44743b4"
+  },
+  {
+   "name": "autonomous/flight-09a-lemniscate/csv_raw/ros2bag_dump/motors_thrust_flight-09a-lemniscate.csv",
+   "method": 8,
+   "crc32": 549763244,
+   "csize": 31920,
+   "usize": 153953,
+   "sha256": "229a6b52b85f18ef547ca5657be62c7e1a1f2d4b6b7d5ce3976e439b4282dccc"
+  },
+  {
+   "name": "autonomous/flight-09a-lemniscate/csv_raw/ros2bag_dump/reference_flight-09a-lemniscate.csv",
+   "method": 8,
+   "crc32": 1687063524,
+   "csize": 100877,
+   "usize": 690735,
+   "sha256": "4376be08a014b64b69618d15138e1ed396cd08d341373b5a0de539a1e352e0a4"
+  },
+  {
+   "name": "autonomous/flight-09a-lemniscate/flight-09a-lemniscate_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 2564355718,
+   "csize": 10224274,
+   "usize": 36235937,
+   "sha256": "b9cf1596795b75203e1d8f005631d84f3f2be35a82bc2a3f4e8bb5f7808b07b0"
+  },
+  {
+   "name": "autonomous/flight-09a-lemniscate/flight-09a-lemniscate_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 1685123424,
+   "csize": 2566167,
+   "usize": 8626687,
+   "sha256": "cdda372ef2500b15b9a5d0103a1b1c1328e0200fe48362a06ce844377b207149"
+  },
+  {
+   "name": "autonomous/flight-09a-lemniscate/metadata_flight-09a-lemniscate.yaml",
+   "method": 8,
+   "crc32": 738728819,
+   "csize": 256,
+   "usize": 441,
+   "sha256": "f5842fc53c5c93fd1703129f28ee8e7ea0f36ad775ee9c6fde35278da6314a7b"
+  },
+  {
+   "name": "autonomous/flight-09a-lemniscate/ros2bag_flight-09a-lemniscate/metadata.yaml",
+   "method": 8,
+   "crc32": 361898184,
+   "csize": 630,
+   "usize": 4333,
+   "sha256": "77b2983a6d975e1f99f8cc8c6c19d9932137930563d818b7a906aaa2520a6fba"
+  },
+  {
+   "name": "autonomous/flight-09a-lemniscate/ros2bag_flight-09a-lemniscate/ros2bag_flight-09a-lemniscate.db3",
+   "method": 8,
+   "crc32": 3334852903,
+   "csize": 2542328,
+   "usize": 5640192,
+   "sha256": "5cba35bfceaa97b94d968794c7c2750bbae5e3d5d1da41f68bb8c4d9f2813e39"
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/csv_raw/camera_flight-10a-lemniscate.csv",
+   "method": 8,
+   "crc32": 1999701051,
+   "csize": 30115,
+   "usize": 145835,
+   "sha256": "12d1298f8a9491075441ba16413f3449c9d38be674204c310061f7ad355fe0c7"
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/csv_raw/gate_corners_flight-10a-lemniscate.csv",
+   "method": 8,
+   "crc32": 3883192790,
+   "csize": 928481,
+   "usize": 3511386,
+   "sha256": "4306c5d817146e10fcb023744e8dc51cc1b09bbbb108ed6e8c14f7fd13b62474"
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/csv_raw/mocap_flight-10a-lemniscate.csv",
+   "method": 8,
+   "crc32": 2327553650,
+   "csize": 1139050,
+   "usize": 5834759,
+   "sha256": "2039518a262f51431baaf28f7f3324eb67c35f9b57a93e9e6c81958674fbdacf"
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/csv_raw/ros2bag_dump/battery_flight-10a-lemniscate.csv",
+   "method": 8,
+   "crc32": 3786346169,
+   "csize": 6836,
+   "usize": 40093,
+   "sha256": "dfb1554fda409a0169bb6005fd502cc3fa154e30ce945cfc060128ffe4827c51"
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/csv_raw/ros2bag_dump/channels_flight-10a-lemniscate.csv",
+   "method": 8,
+   "crc32": 4179824479,
+   "csize": 68085,
+   "usize": 363940,
+   "sha256": "8d66aa8840d5b8daae2691f331ed8479131b6aa3b81b7ada67e37682285cb584"
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/csv_raw/ros2bag_dump/ctbr_flight-10a-lemniscate.csv",
+   "method": 8,
+   "crc32": 4292144678,
+   "csize": 183305,
+   "usize": 479734,
+   "sha256": "9a2085653afc2510eeb9531cd91f052e459ed1d78611abf3d98aa8f5f2d1b245"
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/csv_raw/ros2bag_dump/drone_state_flight-10a-lemniscate.csv",
+   "method": 8,
+   "crc32": 1511426458,
+   "csize": 481791,
+   "usize": 1247851,
+   "sha256": "b9cd304a4a22e17edaaf9c335ac4869dbb1446514d634373206c3b97b12f3f0e"
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/csv_raw/ros2bag_dump/imu_flight-10a-lemniscate.csv",
+   "method": 8,
+   "crc32": 734366771,
+   "csize": 310802,
+   "usize": 1184898,
+   "sha256": "5c237714206df4fc70f32d4e98469b77888b6293fa31dbe1a71e786f68b2dd46"
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/csv_raw/ros2bag_dump/motors_thrust_flight-10a-lemniscate.csv",
+   "method": 8,
+   "crc32": 3778810135,
+   "csize": 34257,
+   "usize": 168654,
+   "sha256": "11c71f0c1608e47368daadb5ecb8c5f5e8d6a5e78911b3e0c6ae848fc2068a51"
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/csv_raw/ros2bag_dump/reference_flight-10a-lemniscate.csv",
+   "method": 8,
+   "crc32": 2958174391,
+   "csize": 102419,
+   "usize": 767839,
+   "sha256": "b7394e7ea7f5add443d378ebc788de8161b36f10b0776cd3436218ec7c3b044b"
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/flight-10a-lemniscate_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 889949923,
+   "csize": 11319150,
+   "usize": 39783988,
+   "sha256": "891f7691c22597e6db14d705ce9bf528d982377030cee3700bc1817eb77f5bc7"
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/flight-10a-lemniscate_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 905000051,
+   "csize": 2923304,
+   "usize": 9580984,
+   "sha256": "f3150eba8823a5c71e5251beb3b257a87e9243532737ff47ec953f86ea12aee8"
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/metadata_flight-10a-lemniscate.yaml",
+   "method": 8,
+   "crc32": 1986849272,
+   "csize": 257,
+   "usize": 442,
+   "sha256": "1fcae4866dd7d7c216a86f92402688c7460fe3522b1c73fe0345e76ce41c06a8"
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/ros2bag_flight-10a-lemniscate/metadata.yaml",
+   "method": 8,
+   "crc32": 1549704586,
+   "csize": 621,
+   "usize": 4031,
+   "sha256": "59a345ac0b897748e008def37da0edaa56d861059b48553c8da32c2e92b36048"
+  },
+  {
+   "name": "autonomous/flight-10a-lemniscate/ros2bag_flight-10a-lemniscate/ros2bag_flight-10a-lemniscate.db3",
+   "method": 8,
+   "crc32": 1022700802,
+   "csize": 2544614,
+   "usize": 5664768,
+   "sha256": "2abbd010e108a0d959df519c2bca185c7fa2ff366b239b2733945a87d15e193b"
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/csv_raw/camera_flight-11a-lemniscate.csv",
+   "method": 8,
+   "crc32": 2851996499,
+   "csize": 24284,
+   "usize": 117411,
+   "sha256": "d7e591b55f628df4f819554dc5e2f6a77db1028a69cc6160b97a7f20d001349e"
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/csv_raw/gate_corners_flight-11a-lemniscate.csv",
+   "method": 8,
+   "crc32": 1408248068,
+   "csize": 752700,
+   "usize": 2848727,
+   "sha256": "32537d2b9e94277d0b710dacd484438910e064eabb8bc75ed3496b07b465bcbd"
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/csv_raw/mocap_flight-11a-lemniscate.csv",
+   "method": 8,
+   "crc32": 1572849210,
+   "csize": 899488,
+   "usize": 4617146,
+   "sha256": "4f25f4e95c830bcf99b689f07f3646e964d6a89efbac5915e48a98bcd7458a32"
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/csv_raw/ros2bag_dump/battery_flight-11a-lemniscate.csv",
+   "method": 8,
+   "crc32": 159213978,
+   "csize": 5533,
+   "usize": 32553,
+   "sha256": "8f5e62c3f0cf8a8d36066161dd317e2b488836d44312b3a6f3bc9360ff9e6f6a"
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/csv_raw/ros2bag_dump/channels_flight-11a-lemniscate.csv",
+   "method": 8,
+   "crc32": 4050471569,
+   "csize": 59361,
+   "usize": 295540,
+   "sha256": "0048a5ff1f042a98179f7ef81faf0e4fda33061476c51e56b1e0c6f300be934a"
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/csv_raw/ros2bag_dump/ctbr_flight-11a-lemniscate.csv",
+   "method": 8,
+   "crc32": 987112220,
+   "csize": 151845,
+   "usize": 391352,
+   "sha256": "d1cebaeb55a9fd7b0165f0b15e18398d2d041392dd7ca1865a9c2fdb95a45372"
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/csv_raw/ros2bag_dump/drone_state_flight-11a-lemniscate.csv",
+   "method": 8,
+   "crc32": 2290885567,
+   "csize": 400789,
+   "usize": 1013064,
+   "sha256": "4519a2c86f1402cff0ac77bb37bf4d2e3589309712d5549729f9020ca296820e"
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/csv_raw/ros2bag_dump/imu_flight-11a-lemniscate.csv",
+   "method": 8,
+   "crc32": 2343345761,
+   "csize": 267331,
+   "usize": 967175,
+   "sha256": "d1d5a480344ebc4f8136d2152971065ce069673ab49684c415dbc2e2a77d0ea3"
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/csv_raw/ros2bag_dump/motors_thrust_flight-11a-lemniscate.csv",
+   "method": 8,
+   "crc32": 3377386534,
+   "csize": 28798,
+   "usize": 136934,
+   "sha256": "e465803e727659219e6acef25b7bd97471df8b72d89379cc38c40a21705f4db1"
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/csv_raw/ros2bag_dump/reference_flight-11a-lemniscate.csv",
+   "method": 8,
+   "crc32": 3449224987,
+   "csize": 99129,
+   "usize": 598960,
+   "sha256": "a6f069f79f6eaf50862f685d454848e6bbd54140171db3d1a1c0022c48ca35f8"
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/flight-11a-lemniscate_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 2823928069,
+   "csize": 9104249,
+   "usize": 32087472,
+   "sha256": "0b2dcaa374c95d6b848e6e431ee44b06bccc38382b1e40e86c0d9cf54e6ce49e"
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/flight-11a-lemniscate_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 4050529762,
+   "csize": 2282508,
+   "usize": 7671661,
+   "sha256": "25ddfb5958ba00807006f0eaf0d07c43e90b1d8a5e5ffc9ad22912d8422472b7"
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/metadata_flight-11a-lemniscate.yaml",
+   "method": 8,
+   "crc32": 4201686109,
+   "csize": 252,
+   "usize": 435,
+   "sha256": "26fed3ee54378cb0b5ba1f06ff38783f9be86fc691fe5527a4d77182114cc144"
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/ros2bag_flight-11a-lemniscate/metadata.yaml",
+   "method": 8,
+   "crc32": 1854701206,
+   "csize": 634,
+   "usize": 4334,
+   "sha256": "e36280ac4bc69bccbfe150539b7967895f8317fac34a9ad6d6495219b9d2d6b7"
+  },
+  {
+   "name": "autonomous/flight-11a-lemniscate/ros2bag_flight-11a-lemniscate/ros2bag_flight-11a-lemniscate.db3",
+   "method": 8,
+   "crc32": 2521162370,
+   "csize": 2358025,
+   "usize": 5160960,
+   "sha256": "4dca38c0bc8142de1a7bddb628f4a83ed7476be7b8d44024a20bbce4ce3dd5ca"
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/csv_raw/camera_flight-12a-lemniscate.csv",
+   "method": 8,
+   "crc32": 3191656340,
+   "csize": 25478,
+   "usize": 123483,
+   "sha256": "c6d88d4b9a1905c9617e735dfbedd3a9725078990d80df5884715c31ab97dcb9"
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/csv_raw/gate_corners_flight-12a-lemniscate.csv",
+   "method": 8,
+   "crc32": 503504640,
+   "csize": 784277,
+   "usize": 2973735,
+   "sha256": "3724a66a79227aac4b50e4abda4f152dba5d05adc51a8edf84731fa6eaac276b"
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/csv_raw/mocap_flight-12a-lemniscate.csv",
+   "method": 8,
+   "crc32": 531521997,
+   "csize": 943438,
+   "usize": 4896501,
+   "sha256": "79a7510d72fbeb81b9d79af5ee2e7c74c4b92bb5f9158d01b609436bf2eccefb"
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/csv_raw/ros2bag_dump/battery_flight-12a-lemniscate.csv",
+   "method": 8,
+   "crc32": 3685451355,
+   "csize": 5756,
+   "usize": 33945,
+   "sha256": "1bcd64df79775414f85af75a5042217e007a8c602b1f79f3aaafd846a5b90b6d"
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/csv_raw/ros2bag_dump/channels_flight-12a-lemniscate.csv",
+   "method": 8,
+   "crc32": 2510180476,
+   "csize": 61441,
+   "usize": 307972,
+   "sha256": "db9a5acf0efe0623c38c25330d8e300794bccf77a94d0c0617a4ce859ef57969"
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/csv_raw/ros2bag_dump/ctbr_flight-12a-lemniscate.csv",
+   "method": 8,
+   "crc32": 2432190744,
+   "csize": 157478,
+   "usize": 406779,
+   "sha256": "0310b09eafc1ef1df6e309dd91f7c9cd8041cb0207133b410d7b430ea22d24d2"
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/csv_raw/ros2bag_dump/drone_state_flight-12a-lemniscate.csv",
+   "method": 8,
+   "crc32": 853461721,
+   "csize": 415947,
+   "usize": 1057761,
+   "sha256": "958bf23821b5df6e496d79770bca01884675f08db994945b5d7fd85ff2a54427"
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/csv_raw/ros2bag_dump/imu_flight-12a-lemniscate.csv",
+   "method": 8,
+   "crc32": 1615001648,
+   "csize": 276370,
+   "usize": 1007855,
+   "sha256": "eb68247b304c21509dea33505a3f2ed63397f711ab74b6022d17668aed4d4f6d"
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/csv_raw/ros2bag_dump/motors_thrust_flight-12a-lemniscate.csv",
+   "method": 8,
+   "crc32": 3567998539,
+   "csize": 29891,
+   "usize": 142851,
+   "sha256": "e0f33205eaa64e168ee8a47aaa68d3621c665e5b425a01d3803f2a4716a242bd"
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/csv_raw/ros2bag_dump/reference_flight-12a-lemniscate.csv",
+   "method": 8,
+   "crc32": 3829308674,
+   "csize": 99727,
+   "usize": 629776,
+   "sha256": "c8e2d697ea20d2d9d0b99b84b3118c2cc0a34e4eea550d2e731a44017b2b7861"
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/flight-12a-lemniscate_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 2644145462,
+   "csize": 9428172,
+   "usize": 33672345,
+   "sha256": "881628c1084bb917de211025b470e8abdf1804ce169ce4af357b19372a79ced6"
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/flight-12a-lemniscate_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 3140967645,
+   "csize": 2418866,
+   "usize": 8073843,
+   "sha256": "4e50491c7d899a035806dbca0cb9df9a255583a7295aa56a85c1329372ac6a0e"
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/metadata_flight-12a-lemniscate.yaml",
+   "method": 8,
+   "crc32": 4165972571,
+   "csize": 256,
+   "usize": 439,
+   "sha256": "3558c0b1c5f3f70874401a707908d3d48c8d49b4be74451e19927ac747bd0c7a"
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/ros2bag_flight-12a-lemniscate/metadata.yaml",
+   "method": 8,
+   "crc32": 696207831,
+   "csize": 620,
+   "usize": 4031,
+   "sha256": "2dd2aac96b6d02a70940bd4059cc812691301b28d8b700c9631a2f061b0c3f85"
+  },
+  {
+   "name": "autonomous/flight-12a-lemniscate/ros2bag_flight-12a-lemniscate/ros2bag_flight-12a-lemniscate.db3",
+   "method": 8,
+   "crc32": 1254872237,
+   "csize": 2334274,
+   "usize": 5136384,
+   "sha256": "23e03ea16cc348fee2efa1fc23409669431e7c178f7f9a64868f2f2f0d6c82e2"
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/csv_raw/camera_flight-13a-trackRATM.csv",
+   "method": 8,
+   "crc32": 229282797,
+   "csize": 50467,
+   "usize": 244747,
+   "sha256": "7be58f7c7ad56b8b4783b3391bb8a111f2b08b41bc10b9f0cafd69ed3f2d13ec"
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/csv_raw/gate_corners_flight-13a-trackRATM.csv",
+   "method": 8,
+   "crc32": 579833367,
+   "csize": 2761477,
+   "usize": 10184196,
+   "sha256": "f4bd48f00be96c3878ad545624d04c8f046b2e9af7be964338770b21e9dac336"
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/csv_raw/mocap_flight-13a-trackRATM.csv",
+   "method": 8,
+   "crc32": 1710812928,
+   "csize": 2837481,
+   "usize": 15351499,
+   "sha256": "ff246689f014f966b49045075d53a16044a1e433e5139938c05f2048d238d7e4"
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/csv_raw/ros2bag_dump/battery_flight-13a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3368579079,
+   "csize": 11595,
+   "usize": 67324,
+   "sha256": "17726e32dab3002cd9597547e51061bc997c1eda55fe1742f76271519d4b47e3"
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/csv_raw/ros2bag_dump/channels_flight-13a-trackRATM.csv",
+   "method": 8,
+   "crc32": 1109384174,
+   "csize": 61864,
+   "usize": 361636,
+   "sha256": "2761b6ba1fc4eb8c1f82b5eb600090e931cad1d6596df13ba905b699322c834f"
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/csv_raw/ros2bag_dump/ctbr_flight-13a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3912972545,
+   "csize": 179619,
+   "usize": 467928,
+   "sha256": "8e4765756babb65027eb0419cd8e2f12c312e9dc7a710300cf7e007bb82ab3c5"
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/csv_raw/ros2bag_dump/drone_state_flight-13a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3641367301,
+   "csize": 819770,
+   "usize": 2110794,
+   "sha256": "5061a21b53f419891a944b43242f3c6a0de7beacf36becd65a3fa9fce6a340fe"
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/csv_raw/ros2bag_dump/imu_flight-13a-trackRATM.csv",
+   "method": 8,
+   "crc32": 1380503615,
+   "csize": 519944,
+   "usize": 1996998,
+   "sha256": "6ee0c609b86260f066cd4c2a35a4e49cfc95f4106eb03f204a740b36689c33b2"
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/csv_raw/ros2bag_dump/motors_thrust_flight-13a-trackRATM.csv",
+   "method": 8,
+   "crc32": 4197887956,
+   "csize": 57896,
+   "usize": 283212,
+   "sha256": "17b71f05eb55ce7f2a588f1d611f0cadf1dcb69de06a1ed8782625cc76f2187a"
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/csv_raw/ros2bag_dump/reference_flight-13a-trackRATM.csv",
+   "method": 8,
+   "crc32": 2347707441,
+   "csize": 845811,
+   "usize": 3839710,
+   "sha256": "5a6fa480e1ba48977b71bb24f386d7115d5d619d5d78c1272c4046a1edd8ec9b"
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/flight-13a-trackRATM_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 354047633,
+   "csize": 29227585,
+   "usize": 103422519,
+   "sha256": "872333fd0b449cd6b92772a6bf21181896deef8168ded333998c2eda961964ea"
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/flight-13a-trackRATM_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 618077030,
+   "csize": 7357630,
+   "usize": 24853980,
+   "sha256": "5112b46dda9d4636ad0e07c04adfb16ff75aa08d7054fbbabf8ddec1f343a56f"
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/metadata_flight-13a-trackRATM.yaml",
+   "method": 8,
+   "crc32": 182701763,
+   "csize": 254,
+   "usize": 434,
+   "sha256": "7e5fb977cc441d0f85cd7b78fd8329299187786a057fab7da598d1367cbbfce6"
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/ros2bag_flight-13a-trackRATM/metadata.yaml",
+   "method": 8,
+   "crc32": 2522322552,
+   "csize": 631,
+   "usize": 4336,
+   "sha256": "cc363c28e567e9085cfad48454e303703555cfa1e0d51ef93cb469fe7515ea4e"
+  },
+  {
+   "name": "autonomous/flight-13a-trackRATM/ros2bag_flight-13a-trackRATM/ros2bag_flight-13a-trackRATM.db3",
+   "method": 8,
+   "crc32": 264083871,
+   "csize": 5016029,
+   "usize": 14045184,
+   "sha256": "b1a5ad82cf2a8ea4e2f58446c971787dcf9de8168830eb957bef5de6dda27484"
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/csv_raw/camera_flight-14a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3490402701,
+   "csize": 51940,
+   "usize": 252183,
+   "sha256": "3cd69ed03dbf1134b5dcd8720e73c7946331a2cb98cabd6342f61640b2dc41e3"
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/csv_raw/gate_corners_flight-14a-trackRATM.csv",
+   "method": 8,
+   "crc32": 1948919905,
+   "csize": 2851454,
+   "usize": 10495035,
+   "sha256": "c8244bf8b46dde3487014b8ea79a9b0a5c98fb2afc3372731a803d729c0c618e"
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/csv_raw/mocap_flight-14a-trackRATM.csv",
+   "method": 8,
+   "crc32": 1491351067,
+   "csize": 2979028,
+   "usize": 15814811,
+   "sha256": "e601f93fe0fb36af5af4f996b7d1c29ab9008f5688cbdaa172de38db88107f60"
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/csv_raw/ros2bag_dump/battery_flight-14a-trackRATM.csv",
+   "method": 8,
+   "crc32": 1219368920,
+   "csize": 11916,
+   "usize": 69383,
+   "sha256": "b5d3c7d1a17c2f5154962213d3eb531f904f3de7baf7c9572e448d394c03fb27"
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/csv_raw/ros2bag_dump/channels_flight-14a-trackRATM.csv",
+   "method": 8,
+   "crc32": 2050376986,
+   "csize": 64085,
+   "usize": 368404,
+   "sha256": "27cf02d04aaf399f5ae67134f70c82007b74d7a80a055e0745dc34bbc4b8c807"
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/csv_raw/ros2bag_dump/ctbr_flight-14a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3470313011,
+   "csize": 186458,
+   "usize": 485603,
+   "sha256": "a3598bbaa854d56de5b7e4556170e6c90bc9038defe4900ff9d98872c77ce9d6"
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/csv_raw/ros2bag_dump/drone_state_flight-14a-trackRATM.csv",
+   "method": 8,
+   "crc32": 752547983,
+   "csize": 842541,
+   "usize": 2169053,
+   "sha256": "2b6b0bd2e0acb24457bdbf1a7f945ab548efd0fd3dec02c29036a4bca504317c"
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/csv_raw/ros2bag_dump/imu_flight-14a-trackRATM.csv",
+   "method": 8,
+   "crc32": 2641426916,
+   "csize": 535830,
+   "usize": 2058669,
+   "sha256": "0550ce713ea792bfc4393b9182c929308daf4e8292d192713f162d9b81ee7558"
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/csv_raw/ros2bag_dump/motors_thrust_flight-14a-trackRATM.csv",
+   "method": 8,
+   "crc32": 284524631,
+   "csize": 58966,
+   "usize": 291874,
+   "sha256": "1dc5b2ce6da7920021458c925ab9ba8fd118b3d64c99e7fa040aa0442d7c9706"
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/csv_raw/ros2bag_dump/reference_flight-14a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3666896897,
+   "csize": 846881,
+   "usize": 3974259,
+   "sha256": "9cd7892b500cbfcfd000ceda91aa32310d6dc0e88d44b09c761622100e5e37af"
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/flight-14a-trackRATM_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 3594874537,
+   "csize": 29881292,
+   "usize": 107205777,
+   "sha256": "36cdcc6eb0ece8f927e855878071796a451a2ff2fcae42b34ed46fb5a010d9a5"
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/flight-14a-trackRATM_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 3556675858,
+   "csize": 7648819,
+   "usize": 25645599,
+   "sha256": "2206fc1eb178473f88f3d4ce04b0a80846b3b8732c93fcfd15f322b2d3c240ab"
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/metadata_flight-14a-trackRATM.yaml",
+   "method": 8,
+   "crc32": 2670622245,
+   "csize": 255,
+   "usize": 436,
+   "sha256": "446ed35db54417aa97c1b5a03e7c05ac5ce47c3daa83d67f3b74883c7832d16e"
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/ros2bag_flight-14a-trackRATM/metadata.yaml",
+   "method": 8,
+   "crc32": 826915262,
+   "csize": 619,
+   "usize": 4032,
+   "sha256": "bc3f4dd6d60d76c2abb44a194bb57afe45d6b5d24273a158e8c2e2b348ea3b54"
+  },
+  {
+   "name": "autonomous/flight-14a-trackRATM/ros2bag_flight-14a-trackRATM/ros2bag_flight-14a-trackRATM.db3",
+   "method": 8,
+   "crc32": 1519425438,
+   "csize": 4899077,
+   "usize": 13463552,
+   "sha256": "d5945d7b6178884e18a553dd359e1800240b1b398a44c6e69291bf48b4f4c636"
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/csv_raw/camera_flight-15a-trackRATM.csv",
+   "method": 8,
+   "crc32": 1502451474,
+   "csize": 48498,
+   "usize": 235507,
+   "sha256": "ebcc92511d23eb05dab524d384f72ef7337c3580bfab82727c2df64851b94937"
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/csv_raw/gate_corners_flight-15a-trackRATM.csv",
+   "method": 8,
+   "crc32": 999415117,
+   "csize": 2657928,
+   "usize": 9881817,
+   "sha256": "4ea45f7c44eb003808ea62db87607fb435b54f93914f7964fefef79de56b29b0"
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/csv_raw/mocap_flight-15a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3253514785,
+   "csize": 2754309,
+   "usize": 14816054,
+   "sha256": "0e736977230ac162d94f968da1fbdc86c5dc6dd1d245f984d4604cfeee0059a4"
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/csv_raw/ros2bag_dump/battery_flight-15a-trackRATM.csv",
+   "method": 8,
+   "crc32": 2075116968,
+   "csize": 11285,
+   "usize": 65323,
+   "sha256": "60465c25b1ff992828ab88d03d4b48886af7b5214c0cebfdc37bfc33ae64964b"
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/csv_raw/ros2bag_dump/channels_flight-15a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3146199731,
+   "csize": 59913,
+   "usize": 347044,
+   "sha256": "57e0de615469146419f6b94eb50e94744d99055b1cc873a24ddf369d9cff59c2"
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/csv_raw/ros2bag_dump/ctbr_flight-15a-trackRATM.csv",
+   "method": 8,
+   "crc32": 1053493760,
+   "csize": 175485,
+   "usize": 456404,
+   "sha256": "13add93f3a8036c824f7b4a9c15af5b533c760e176afde510c99753960ffa529"
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/csv_raw/ros2bag_dump/drone_state_flight-15a-trackRATM.csv",
+   "method": 8,
+   "crc32": 1766971833,
+   "csize": 798327,
+   "usize": 2050169,
+   "sha256": "3e37538136c40f1787da885c11f87cc04baf639b9cc91defd5292d9ec26629d7"
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/csv_raw/ros2bag_dump/imu_flight-15a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3240817820,
+   "csize": 502408,
+   "usize": 1936562,
+   "sha256": "a296319a0a7bb0a433375593d62b3f3b58799c052e8f1c6f7d332c472138e402"
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/csv_raw/ros2bag_dump/motors_thrust_flight-15a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3273154004,
+   "csize": 56405,
+   "usize": 274794,
+   "sha256": "4fa659ff1a9a01aeadcd7dd42b1a274c15d53a9b65037c26da9f7957ec31ba51"
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/csv_raw/ros2bag_dump/reference_flight-15a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3305726866,
+   "csize": 841696,
+   "usize": 3766415,
+   "sha256": "7e503ba70a4273c2cce360e7bffc0c7e862589bb1aa34c3b7ce4efe6be0bf39e"
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/flight-15a-trackRATM_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 2495057394,
+   "csize": 27605894,
+   "usize": 100493485,
+   "sha256": "47decfab36c8fe8b95fd8e816522205d4bffeb4c26cb4b153f9e36361cad7875"
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/flight-15a-trackRATM_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 56296238,
+   "csize": 7037412,
+   "usize": 23897011,
+   "sha256": "a769f2380e9f85cb49774db7bcb6d444b0ed4b18d82048f236bc1fd8e878b6b7"
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/metadata_flight-15a-trackRATM.yaml",
+   "method": 8,
+   "crc32": 1745437601,
+   "csize": 259,
+   "usize": 439,
+   "sha256": "ed50805df933c6fc0c6abc1556984f37ad08b688d306f41fabb28f6030c0c712"
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/ros2bag_flight-15a-trackRATM/metadata.yaml",
+   "method": 8,
+   "crc32": 3777869985,
+   "csize": 628,
+   "usize": 4332,
+   "sha256": "ecb1d471f3a3bbb0e1c9ee1e840af8ea9be028810a7c5d38254258b6ebdc8c31"
+  },
+  {
+   "name": "autonomous/flight-15a-trackRATM/ros2bag_flight-15a-trackRATM/ros2bag_flight-15a-trackRATM.db3",
+   "method": 8,
+   "crc32": 3358898436,
+   "csize": 4529772,
+   "usize": 12533760,
+   "sha256": "beabbcb3410179331b342c19aadecf5480362ad85093439bf79e863b960acdfb"
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/csv_raw/camera_flight-16a-trackRATM.csv",
+   "method": 8,
+   "crc32": 2847951672,
+   "csize": 49039,
+   "usize": 238411,
+   "sha256": "b66e92f8de0b2b208cae01e0b2c2c43fa92fbad59d6d63d263f15c66350be780"
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/csv_raw/gate_corners_flight-16a-trackRATM.csv",
+   "method": 8,
+   "crc32": 540537372,
+   "csize": 2672393,
+   "usize": 9922505,
+   "sha256": "07d29f8d49ea74d41df9e57f6a7c18e72ee5d87e55885dd878774f511c115d62"
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/csv_raw/mocap_flight-16a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3576629590,
+   "csize": 2751336,
+   "usize": 14884731,
+   "sha256": "971d456b9ff929c1b22172671e959c97320db90d7d378821542f24d9695b53ae"
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/csv_raw/ros2bag_dump/battery_flight-16a-trackRATM.csv",
+   "method": 8,
+   "crc32": 1962019257,
+   "csize": 11307,
+   "usize": 65613,
+   "sha256": "04f55ffaebf0fd6a4f2b87da4353b283d2ba8de5ff5b93bedc7f4a18fb2f53c6"
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/csv_raw/ros2bag_dump/channels_flight-16a-trackRATM.csv",
+   "method": 8,
+   "crc32": 36561666,
+   "csize": 60194,
+   "usize": 348148,
+   "sha256": "be5ef24252db1ab7fa2b4d28f03eae796f0fcbdc39bf8b4539cce4370dfc7aba"
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/csv_raw/ros2bag_dump/ctbr_flight-16a-trackRATM.csv",
+   "method": 8,
+   "crc32": 2885802756,
+   "csize": 175922,
+   "usize": 456176,
+   "sha256": "6543e7365be8aa25011d305bf2cc8cc96a9e1a231ac6df651246a746e0dff943"
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/csv_raw/ros2bag_dump/drone_state_flight-16a-trackRATM.csv",
+   "method": 8,
+   "crc32": 4286499531,
+   "csize": 799551,
+   "usize": 2055114,
+   "sha256": "987a8207da6d68d14e2f32510f95d4d5d78d641742827835731ca61caab34695"
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/csv_raw/ros2bag_dump/imu_flight-16a-trackRATM.csv",
+   "method": 8,
+   "crc32": 1836571961,
+   "csize": 510634,
+   "usize": 1939876,
+   "sha256": "73acb8a20fba80976b9def63f6a5ec6392affd81106154580564dffa36875fdb"
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/csv_raw/ros2bag_dump/motors_thrust_flight-16a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3926980216,
+   "csize": 56624,
+   "usize": 275953,
+   "sha256": "7b6cbed0b5aae0b7f1654edd1e5b5057ec1f992b15ceefb35c3486b7a4f7b535"
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/csv_raw/ros2bag_dump/reference_flight-16a-trackRATM.csv",
+   "method": 8,
+   "crc32": 2179905559,
+   "csize": 838135,
+   "usize": 3767959,
+   "sha256": "e97ec65e2f917719090810c22b9eada833c606568a7410e99131523f01f06bbd"
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/flight-16a-trackRATM_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 1490717070,
+   "csize": 27733504,
+   "usize": 101053798,
+   "sha256": "ee4d8bd2152ad6fc016bb36c5b8ece922eb26199458054db954e2f963e95d002"
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/flight-16a-trackRATM_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 3866110365,
+   "csize": 7119176,
+   "usize": 24213167,
+   "sha256": "4c56a32dccac44b05984eea31ae7bbefb4e14b625f4803c9ecc8a9ec3ab1a608"
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/metadata_flight-16a-trackRATM.yaml",
+   "method": 8,
+   "crc32": 202954751,
+   "csize": 261,
+   "usize": 441,
+   "sha256": "ba68188ae96762cf6a9d3db4175bf60597e7e5c60d00083ca88cd0448fe9b0e8"
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/ros2bag_flight-16a-trackRATM/metadata.yaml",
+   "method": 8,
+   "crc32": 471654098,
+   "csize": 632,
+   "usize": 4334,
+   "sha256": "e647112ff6afaa34b5ebf1911b70ca4e0f6ba93bd27171021b030c2f7a47b2ed"
+  },
+  {
+   "name": "autonomous/flight-16a-trackRATM/ros2bag_flight-16a-trackRATM/ros2bag_flight-16a-trackRATM.db3",
+   "method": 8,
+   "crc32": 2128744774,
+   "csize": 4826060,
+   "usize": 13254656,
+   "sha256": "f8b965c44788d0d0c9e4d5a73685e09ddf2074d7e97a11bb04b8fddc0863d532"
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/csv_raw/camera_flight-17a-trackRATM.csv",
+   "method": 8,
+   "crc32": 2845092768,
+   "csize": 48911,
+   "usize": 237619,
+   "sha256": "ddad74fb839b8d5e3e9de961c6a9a175dce69911a64e98f5a006bef4484708db"
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/csv_raw/gate_corners_flight-17a-trackRATM.csv",
+   "method": 8,
+   "crc32": 1901930716,
+   "csize": 2695583,
+   "usize": 9954526,
+   "sha256": "402604afd457a2a4aa99f922701c169dd477856eab224edcfa8cef710992795f"
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/csv_raw/mocap_flight-17a-trackRATM.csv",
+   "method": 8,
+   "crc32": 1285569232,
+   "csize": 2803635,
+   "usize": 15024274,
+   "sha256": "20394439e6c73761cdbe98084881cd836534bfd13401c0fc1c5c81c8915eac5c"
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/csv_raw/ros2bag_dump/battery_flight-17a-trackRATM.csv",
+   "method": 8,
+   "crc32": 48112597,
+   "csize": 11272,
+   "usize": 65787,
+   "sha256": "ed56d1620c28f595ca0afb6a665c872db2162952af0d70edcb1e23072f8cbea4"
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/csv_raw/ros2bag_dump/channels_flight-17a-trackRATM.csv",
+   "method": 8,
+   "crc32": 907695766,
+   "csize": 60237,
+   "usize": 349876,
+   "sha256": "56fa356bc32a2dc18190f1aed010516739d10e82304df6ec0844271b4c910f7c"
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/csv_raw/ros2bag_dump/ctbr_flight-17a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3963436512,
+   "csize": 176842,
+   "usize": 461647,
+   "sha256": "925b9bffd346ab542df7c5c11254e3283aee6d9c896e2ba0572bb1e310880c3e"
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/csv_raw/ros2bag_dump/drone_state_flight-17a-trackRATM.csv",
+   "method": 8,
+   "crc32": 2650542458,
+   "csize": 803805,
+   "usize": 2067377,
+   "sha256": "9e7fc5b1f9dd70a5a05f50b6303a37f6b5776f7ef1714f98a1ffae0af5b94c86"
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/csv_raw/ros2bag_dump/imu_flight-17a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3366710070,
+   "csize": 503236,
+   "usize": 1951460,
+   "sha256": "09307bc141b487983c87971b16bfab455a537cdcc1e70997d442e64a94ad3963"
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/csv_raw/ros2bag_dump/motors_thrust_flight-17a-trackRATM.csv",
+   "method": 8,
+   "crc32": 2741304167,
+   "csize": 56276,
+   "usize": 276807,
+   "sha256": "4043105261227f6d0c5dee3b1cb35dd33bbfbb4441cf4ae0910fff39bba8d26f"
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/csv_raw/ros2bag_dump/reference_flight-17a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3351668381,
+   "csize": 845083,
+   "usize": 3799591,
+   "sha256": "18ce3874b6c97d987a0fdcb267be090012be8e2acf7fcaef03a61297cc8a939a"
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/flight-17a-trackRATM_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 591769523,
+   "csize": 28359405,
+   "usize": 101436002,
+   "sha256": "71ef4a212ee429806b7f3b4e287d2667d881634671c2b949383e3e85b34476ad"
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/flight-17a-trackRATM_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 3756565924,
+   "csize": 7191119,
+   "usize": 24153845,
+   "sha256": "7504af28f5223cd88092aed2d8ac29f375889d99e66634eee9c6b3ee923e14d1"
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/metadata_flight-17a-trackRATM.yaml",
+   "method": 8,
+   "crc32": 1692606615,
+   "csize": 255,
+   "usize": 434,
+   "sha256": "6f1dbf6d0e34bd289971c88b7902aa16c66c62d09ede7ea38531434dd8377730"
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/ros2bag_flight-17a-trackRATM/metadata.yaml",
+   "method": 8,
+   "crc32": 1468718912,
+   "csize": 616,
+   "usize": 4030,
+   "sha256": "d7eebbbbaa863e2deb7ba377f7bf3203e151f920ada7ab8b5b73becf14a11d4a"
+  },
+  {
+   "name": "autonomous/flight-17a-trackRATM/ros2bag_flight-17a-trackRATM/ros2bag_flight-17a-trackRATM.db3",
+   "method": 8,
+   "crc32": 3794286896,
+   "csize": 4518881,
+   "usize": 13250560,
+   "sha256": "c23c3bec5dd7f375cfc9a42cae5b619e302885e271d033478060b6868db94fa0"
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/csv_raw/camera_flight-18a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3164479533,
+   "csize": 52718,
+   "usize": 255307,
+   "sha256": "e9688fe098eaf3962ee62e5a51d8c8a2e25e5a44432c2341fcfce06f4a046bdc"
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/csv_raw/gate_corners_flight-18a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3510044570,
+   "csize": 2852936,
+   "usize": 10621953,
+   "sha256": "77b01a33aafeadb3d60b38c8fe77d0b6d0c07b1b59b2ffb3e2dc557ff4bac0eb"
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/csv_raw/mocap_flight-18a-trackRATM.csv",
+   "method": 8,
+   "crc32": 865583990,
+   "csize": 2917237,
+   "usize": 16098653,
+   "sha256": "37d46cb9828e28b91ca313614e07890f2f0d9022b41f83a2bdbf8206c41a80d0"
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/csv_raw/ros2bag_dump/battery_flight-18a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3310355180,
+   "csize": 12006,
+   "usize": 70195,
+   "sha256": "bb5b3b3f24d78760869b669df251d29283bcf5ba18a258306c525f1446d5ca13"
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/csv_raw/ros2bag_dump/channels_flight-18a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3673207502,
+   "csize": 65205,
+   "usize": 373108,
+   "sha256": "57858eee6b923d53bfa2808ec5122a01bfd8cd966550140a053cf506a0370643"
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/csv_raw/ros2bag_dump/ctbr_flight-18a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3947042593,
+   "csize": 188741,
+   "usize": 489728,
+   "sha256": "6826b991de57dc7cad8e86dc88e27218822e40dbc444df07b509a017e3908ad4"
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/csv_raw/ros2bag_dump/drone_state_flight-18a-trackRATM.csv",
+   "method": 8,
+   "crc32": 1595366697,
+   "csize": 849304,
+   "usize": 2204252,
+   "sha256": "45dbd9f8b82b4397ac353a980fd7a32941a9487a8a456693bbc9fa61c7a8321f"
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/csv_raw/ros2bag_dump/imu_flight-18a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3915111260,
+   "csize": 541402,
+   "usize": 2081142,
+   "sha256": "5c81a6eb6958da33ed4bc198db64f6b37a3b54a71dd3b81340ff4ed30c1062c6"
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/csv_raw/ros2bag_dump/motors_thrust_flight-18a-trackRATM.csv",
+   "method": 8,
+   "crc32": 3546507856,
+   "csize": 59070,
+   "usize": 295351,
+   "sha256": "4a709d58abd751c4c6a4f19cf1b4efd493c322289ca5c1c511d26ca927d18b3b"
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/csv_raw/ros2bag_dump/reference_flight-18a-trackRATM.csv",
+   "method": 8,
+   "crc32": 968981452,
+   "csize": 845764,
+   "usize": 4038191,
+   "sha256": "c7cc098b7b227685e090c346bf3d728f688603816a7565318b8c8b0bb18ba15c"
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/flight-18a-trackRATM_500hz_freq_sync.csv",
+   "method": 8,
+   "crc32": 1666428485,
+   "csize": 29747874,
+   "usize": 108105268,
+   "sha256": "294710f0edb95a45cc63563381fe6f32adabea02c3208f317f2fe9ad4e3da667"
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/flight-18a-trackRATM_cam_ts_sync.csv",
+   "method": 8,
+   "crc32": 1348661330,
+   "csize": 7572053,
+   "usize": 25902312,
+   "sha256": "3cc38a61fa93a5b62649d9ec4e4e08131cd7e0ef95ce243ffc8ef044aa697ff0"
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/metadata_flight-18a-trackRATM.yaml",
+   "method": 8,
+   "crc32": 3648237700,
+   "csize": 256,
+   "usize": 436,
+   "sha256": "51003c22d08bac90e730f2c086bea570c14705731c23ff554ab554ffa66a538b"
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/ros2bag_flight-18a-trackRATM/metadata.yaml",
+   "method": 8,
+   "crc32": 1208764188,
+   "csize": 633,
+   "usize": 4336,
+   "sha256": "5029122842384408da80e47f3abcf13b8c211ef5ee51b253ca59e00bb49e9f64"
+  },
+  {
+   "name": "autonomous/flight-18a-trackRATM/ros2bag_flight-18a-trackRATM/ros2bag_flight-18a-trackRATM.db3",
+   "method": 8,
+   "crc32": 2534915335,
+   "csize": 5057139,
+   "usize": 13877248,
+   "sha256": "46d5de600d4c7a135342a70c0dd4738fa34ee2ba5766841c4951e5575351bd74"
+  }
+ ]
+}
