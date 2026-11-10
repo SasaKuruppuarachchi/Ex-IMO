@@ -1,5 +1,5 @@
 # EX-IMO: Extended Model-Based Learned Inertial Model Odometry
-
+[Arxiv Paper](https://arxiv.org/pdf/2611.09584)
 [![EX-IMO video](https://img.youtube.com/vi/IsjZ-TeqXPM/0.jpg)](https://www.youtube.com/watch?v=IsjZ-TeqXPM)
 
 EX-IMO extends **Learned Inertial Model Odometry (IMO)** (Cioffi et al., RA-L 2023) for quadrotors. IMO is an EKF
